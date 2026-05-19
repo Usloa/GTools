@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/gtools.png</file>
+        <file>icons/ocr.png</file>
+        <file>icons/screenshot.png</file>
+        <file>icons/colorpicker.png</file>
+        <file>icons/markdown.png</file>
+        <file>icons/translate.png</file>
+    </qresource>
+</RCC>

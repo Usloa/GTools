@@ -1,0 +1,22 @@
+# Build
+build/
+cmake-build-*/
+out/
+
+# IDE
+.vs/
+.vscode/
+*.user
+CMakeSettings.json
+
+# Qt
+moc_*
+ui_*
+qrc_*
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Config (contains API keys)
+config.json
