@@ -2,6 +2,7 @@
 #include "TencentTranslateClient.h"
 #include "tools/ocr/BaiduOcrClient.h"
 #include "tools/screenshot/CaptureOverlay.h"
+#include "utils/Logger.h"
 #include <QWidget>
 #include <QVBoxLayout>
 #include <QHBoxLayout>
@@ -18,17 +19,10 @@ TranslateTool::TranslateTool()
     , m_ocrClient(new BaiduOcrClient(this)) {}
 
 void TranslateTool::activate(QWidget *) {
-    QTimer::singleShot(200, this, [this]() {
-        auto *overlay = new CaptureOverlay;
-        connect(overlay, &CaptureOverlay::regionCaptured, this, [this](const QPixmap &pix) {
-            m_ocrClient->recognize(pix);
-        });
-        overlay->start();
-    });
-
     connect(m_ocrClient, &BaiduOcrClient::recognized, this, &TranslateTool::showResult,
             Qt::UniqueConnection);
     connect(m_ocrClient, &BaiduOcrClient::error, this, [](const QString &msg) {
+        Logger::instance().error(QString::fromUtf8("快速翻译 OCR 失败: %1").arg(msg));
         auto *win = new QWidget(nullptr);
         win->setWindowTitle(QString::fromUtf8("快速翻译 - 错误"));
         win->setAttribute(Qt::WA_DeleteOnClose);
@@ -38,6 +32,18 @@ void TranslateTool::activate(QWidget *) {
         layout->addWidget(label);
         win->show();
     }, Qt::UniqueConnection);
+
+    QTimer::singleShot(200, this, [this]() {
+        auto *overlay = new CaptureOverlay;
+        connect(overlay, &CaptureOverlay::regionCaptured, this, [this](const QPixmap &pix) {
+            Logger::instance().info(QString::fromUtf8("快速翻译: 截屏完成，开始OCR识别"));
+            m_ocrClient->recognize(pix);
+        });
+        connect(overlay, &CaptureOverlay::cancelled, this, []() {
+            Logger::instance().info(QString::fromUtf8("快速翻译: 截屏已取消"));
+        });
+        overlay->start();
+    });
 }
 
 void TranslateTool::showResult(const QString &ocrText) {
