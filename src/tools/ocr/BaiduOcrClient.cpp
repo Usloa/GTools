@@ -10,10 +10,16 @@
 BaiduOcrClient::BaiduOcrClient(QObject *parent) : QObject(parent) {}
 
 void BaiduOcrClient::recognize(const QPixmap &image) {
+    // Scale down large images to speed up upload
+    QPixmap scaled = image;
+    if (scaled.width() > 1920 || scaled.height() > 1080) {
+        scaled = scaled.scaled(1920, 1080, Qt::KeepAspectRatio, Qt::SmoothTransformation);
+    }
+
     QByteArray ba;
     QBuffer buf(&ba);
     buf.open(QIODevice::WriteOnly);
-    image.save(&buf, "JPEG", 85);
+    scaled.save(&buf, "JPEG", 70);
     m_pendingImage = ba.toBase64();
 
     if (m_accessToken.isEmpty() || QDateTime::currentDateTime() >= m_tokenExpiry) {

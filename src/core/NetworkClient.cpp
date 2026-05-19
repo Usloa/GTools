@@ -13,6 +13,7 @@ void NetworkClient::post(const QUrl &url, const QByteArray &body,
                          const QMap<QString, QString> &headers,
                          SuccessCallback onSuccess, ErrorCallback onError) {
     QNetworkRequest req(url);
+    req.setTransferTimeout(15000);
     for (auto it = headers.begin(); it != headers.end(); ++it) {
         req.setRawHeader(it.key().toUtf8(), it.value().toUtf8());
     }
@@ -30,6 +31,7 @@ void NetworkClient::post(const QUrl &url, const QByteArray &body,
 void NetworkClient::get(const QUrl &url, const QMap<QString, QString> &headers,
                         SuccessCallback onSuccess, ErrorCallback onError) {
     QNetworkRequest req(url);
+    req.setTransferTimeout(15000);
     for (auto it = headers.begin(); it != headers.end(); ++it) {
         req.setRawHeader(it.key().toUtf8(), it.value().toUtf8());
     }
