@@ -99,11 +99,26 @@ CMakeFiles/GTools.dir/GTools_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GTools.dir/GTools_autogen/mocs_compilation.cpp.s"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\GTools\build2\GTools_autogen\mocs_compilation.cpp -o CMakeFiles\GTools.dir\GTools_autogen\mocs_compilation.cpp.s
 
+CMakeFiles/GTools.dir/src/app/FloatingBall.cpp.obj: CMakeFiles/GTools.dir/flags.make
+CMakeFiles/GTools.dir/src/app/FloatingBall.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
+CMakeFiles/GTools.dir/src/app/FloatingBall.cpp.obj: E:/GTools/src/app/FloatingBall.cpp
+CMakeFiles/GTools.dir/src/app/FloatingBall.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GTools.dir/src/app/FloatingBall.cpp.obj"
+	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/src/app/FloatingBall.cpp.obj -MF CMakeFiles\GTools.dir\src\app\FloatingBall.cpp.obj.d -o CMakeFiles\GTools.dir\src\app\FloatingBall.cpp.obj -c E:\GTools\src\app\FloatingBall.cpp
+
+CMakeFiles/GTools.dir/src/app/FloatingBall.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GTools.dir/src/app/FloatingBall.cpp.i"
+	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\GTools\src\app\FloatingBall.cpp > CMakeFiles\GTools.dir\src\app\FloatingBall.cpp.i
+
+CMakeFiles/GTools.dir/src/app/FloatingBall.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GTools.dir/src/app/FloatingBall.cpp.s"
+	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\GTools\src\app\FloatingBall.cpp -o CMakeFiles\GTools.dir\src\app\FloatingBall.cpp.s
+
 CMakeFiles/GTools.dir/src/app/LauncherWindow.cpp.obj: CMakeFiles/GTools.dir/flags.make
 CMakeFiles/GTools.dir/src/app/LauncherWindow.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
 CMakeFiles/GTools.dir/src/app/LauncherWindow.cpp.obj: E:/GTools/src/app/LauncherWindow.cpp
 CMakeFiles/GTools.dir/src/app/LauncherWindow.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GTools.dir/src/app/LauncherWindow.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GTools.dir/src/app/LauncherWindow.cpp.obj"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/src/app/LauncherWindow.cpp.obj -MF CMakeFiles\GTools.dir\src\app\LauncherWindow.cpp.obj.d -o CMakeFiles\GTools.dir\src\app\LauncherWindow.cpp.obj -c E:\GTools\src\app\LauncherWindow.cpp
 
 CMakeFiles/GTools.dir/src/app/LauncherWindow.cpp.i: cmake_force
@@ -118,7 +133,7 @@ CMakeFiles/GTools.dir/src/app/LogWindow.cpp.obj: CMakeFiles/GTools.dir/flags.mak
 CMakeFiles/GTools.dir/src/app/LogWindow.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
 CMakeFiles/GTools.dir/src/app/LogWindow.cpp.obj: E:/GTools/src/app/LogWindow.cpp
 CMakeFiles/GTools.dir/src/app/LogWindow.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GTools.dir/src/app/LogWindow.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GTools.dir/src/app/LogWindow.cpp.obj"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/src/app/LogWindow.cpp.obj -MF CMakeFiles\GTools.dir\src\app\LogWindow.cpp.obj.d -o CMakeFiles\GTools.dir\src\app\LogWindow.cpp.obj -c E:\GTools\src\app\LogWindow.cpp
 
 CMakeFiles/GTools.dir/src/app/LogWindow.cpp.i: cmake_force
@@ -133,7 +148,7 @@ CMakeFiles/GTools.dir/src/app/SettingsWindow.cpp.obj: CMakeFiles/GTools.dir/flag
 CMakeFiles/GTools.dir/src/app/SettingsWindow.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
 CMakeFiles/GTools.dir/src/app/SettingsWindow.cpp.obj: E:/GTools/src/app/SettingsWindow.cpp
 CMakeFiles/GTools.dir/src/app/SettingsWindow.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GTools.dir/src/app/SettingsWindow.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GTools.dir/src/app/SettingsWindow.cpp.obj"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/src/app/SettingsWindow.cpp.obj -MF CMakeFiles\GTools.dir\src\app\SettingsWindow.cpp.obj.d -o CMakeFiles\GTools.dir\src\app\SettingsWindow.cpp.obj -c E:\GTools\src\app\SettingsWindow.cpp
 
 CMakeFiles/GTools.dir/src/app/SettingsWindow.cpp.i: cmake_force
@@ -148,7 +163,7 @@ CMakeFiles/GTools.dir/src/core/Config.cpp.obj: CMakeFiles/GTools.dir/flags.make
 CMakeFiles/GTools.dir/src/core/Config.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
 CMakeFiles/GTools.dir/src/core/Config.cpp.obj: E:/GTools/src/core/Config.cpp
 CMakeFiles/GTools.dir/src/core/Config.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GTools.dir/src/core/Config.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/GTools.dir/src/core/Config.cpp.obj"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/src/core/Config.cpp.obj -MF CMakeFiles\GTools.dir\src\core\Config.cpp.obj.d -o CMakeFiles\GTools.dir\src\core\Config.cpp.obj -c E:\GTools\src\core\Config.cpp
 
 CMakeFiles/GTools.dir/src/core/Config.cpp.i: cmake_force
@@ -163,7 +178,7 @@ CMakeFiles/GTools.dir/src/core/NetworkClient.cpp.obj: CMakeFiles/GTools.dir/flag
 CMakeFiles/GTools.dir/src/core/NetworkClient.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
 CMakeFiles/GTools.dir/src/core/NetworkClient.cpp.obj: E:/GTools/src/core/NetworkClient.cpp
 CMakeFiles/GTools.dir/src/core/NetworkClient.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/GTools.dir/src/core/NetworkClient.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/GTools.dir/src/core/NetworkClient.cpp.obj"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/src/core/NetworkClient.cpp.obj -MF CMakeFiles\GTools.dir\src\core\NetworkClient.cpp.obj.d -o CMakeFiles\GTools.dir\src\core\NetworkClient.cpp.obj -c E:\GTools\src\core\NetworkClient.cpp
 
 CMakeFiles/GTools.dir/src/core/NetworkClient.cpp.i: cmake_force
@@ -178,7 +193,7 @@ CMakeFiles/GTools.dir/src/core/ToolRegistry.cpp.obj: CMakeFiles/GTools.dir/flags
 CMakeFiles/GTools.dir/src/core/ToolRegistry.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
 CMakeFiles/GTools.dir/src/core/ToolRegistry.cpp.obj: E:/GTools/src/core/ToolRegistry.cpp
 CMakeFiles/GTools.dir/src/core/ToolRegistry.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/GTools.dir/src/core/ToolRegistry.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/GTools.dir/src/core/ToolRegistry.cpp.obj"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/src/core/ToolRegistry.cpp.obj -MF CMakeFiles\GTools.dir\src\core\ToolRegistry.cpp.obj.d -o CMakeFiles\GTools.dir\src\core\ToolRegistry.cpp.obj -c E:\GTools\src\core\ToolRegistry.cpp
 
 CMakeFiles/GTools.dir/src/core/ToolRegistry.cpp.i: cmake_force
@@ -193,7 +208,7 @@ CMakeFiles/GTools.dir/src/main.cpp.obj: CMakeFiles/GTools.dir/flags.make
 CMakeFiles/GTools.dir/src/main.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
 CMakeFiles/GTools.dir/src/main.cpp.obj: E:/GTools/src/main.cpp
 CMakeFiles/GTools.dir/src/main.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/GTools.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/GTools.dir/src/main.cpp.obj"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/src/main.cpp.obj -MF CMakeFiles\GTools.dir\src\main.cpp.obj.d -o CMakeFiles\GTools.dir\src\main.cpp.obj -c E:\GTools\src\main.cpp
 
 CMakeFiles/GTools.dir/src/main.cpp.i: cmake_force
@@ -208,7 +223,7 @@ CMakeFiles/GTools.dir/src/tools/colorpicker/ColorPickerTool.cpp.obj: CMakeFiles/
 CMakeFiles/GTools.dir/src/tools/colorpicker/ColorPickerTool.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
 CMakeFiles/GTools.dir/src/tools/colorpicker/ColorPickerTool.cpp.obj: E:/GTools/src/tools/colorpicker/ColorPickerTool.cpp
 CMakeFiles/GTools.dir/src/tools/colorpicker/ColorPickerTool.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/GTools.dir/src/tools/colorpicker/ColorPickerTool.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/GTools.dir/src/tools/colorpicker/ColorPickerTool.cpp.obj"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/src/tools/colorpicker/ColorPickerTool.cpp.obj -MF CMakeFiles\GTools.dir\src\tools\colorpicker\ColorPickerTool.cpp.obj.d -o CMakeFiles\GTools.dir\src\tools\colorpicker\ColorPickerTool.cpp.obj -c E:\GTools\src\tools\colorpicker\ColorPickerTool.cpp
 
 CMakeFiles/GTools.dir/src/tools/colorpicker/ColorPickerTool.cpp.i: cmake_force
@@ -223,7 +238,7 @@ CMakeFiles/GTools.dir/src/tools/colorpicker/MagnifierWidget.cpp.obj: CMakeFiles/
 CMakeFiles/GTools.dir/src/tools/colorpicker/MagnifierWidget.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
 CMakeFiles/GTools.dir/src/tools/colorpicker/MagnifierWidget.cpp.obj: E:/GTools/src/tools/colorpicker/MagnifierWidget.cpp
 CMakeFiles/GTools.dir/src/tools/colorpicker/MagnifierWidget.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/GTools.dir/src/tools/colorpicker/MagnifierWidget.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/GTools.dir/src/tools/colorpicker/MagnifierWidget.cpp.obj"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/src/tools/colorpicker/MagnifierWidget.cpp.obj -MF CMakeFiles\GTools.dir\src\tools\colorpicker\MagnifierWidget.cpp.obj.d -o CMakeFiles\GTools.dir\src\tools\colorpicker\MagnifierWidget.cpp.obj -c E:\GTools\src\tools\colorpicker\MagnifierWidget.cpp
 
 CMakeFiles/GTools.dir/src/tools/colorpicker/MagnifierWidget.cpp.i: cmake_force
@@ -238,7 +253,7 @@ CMakeFiles/GTools.dir/src/tools/markdown/MarkdownEditor.cpp.obj: CMakeFiles/GToo
 CMakeFiles/GTools.dir/src/tools/markdown/MarkdownEditor.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
 CMakeFiles/GTools.dir/src/tools/markdown/MarkdownEditor.cpp.obj: E:/GTools/src/tools/markdown/MarkdownEditor.cpp
 CMakeFiles/GTools.dir/src/tools/markdown/MarkdownEditor.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/GTools.dir/src/tools/markdown/MarkdownEditor.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/GTools.dir/src/tools/markdown/MarkdownEditor.cpp.obj"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/src/tools/markdown/MarkdownEditor.cpp.obj -MF CMakeFiles\GTools.dir\src\tools\markdown\MarkdownEditor.cpp.obj.d -o CMakeFiles\GTools.dir\src\tools\markdown\MarkdownEditor.cpp.obj -c E:\GTools\src\tools\markdown\MarkdownEditor.cpp
 
 CMakeFiles/GTools.dir/src/tools/markdown/MarkdownEditor.cpp.i: cmake_force
@@ -253,7 +268,7 @@ CMakeFiles/GTools.dir/src/tools/markdown/MarkdownHighlighter.cpp.obj: CMakeFiles
 CMakeFiles/GTools.dir/src/tools/markdown/MarkdownHighlighter.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
 CMakeFiles/GTools.dir/src/tools/markdown/MarkdownHighlighter.cpp.obj: E:/GTools/src/tools/markdown/MarkdownHighlighter.cpp
 CMakeFiles/GTools.dir/src/tools/markdown/MarkdownHighlighter.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/GTools.dir/src/tools/markdown/MarkdownHighlighter.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/GTools.dir/src/tools/markdown/MarkdownHighlighter.cpp.obj"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/src/tools/markdown/MarkdownHighlighter.cpp.obj -MF CMakeFiles\GTools.dir\src\tools\markdown\MarkdownHighlighter.cpp.obj.d -o CMakeFiles\GTools.dir\src\tools\markdown\MarkdownHighlighter.cpp.obj -c E:\GTools\src\tools\markdown\MarkdownHighlighter.cpp
 
 CMakeFiles/GTools.dir/src/tools/markdown/MarkdownHighlighter.cpp.i: cmake_force
@@ -268,7 +283,7 @@ CMakeFiles/GTools.dir/src/tools/markdown/MarkdownTool.cpp.obj: CMakeFiles/GTools
 CMakeFiles/GTools.dir/src/tools/markdown/MarkdownTool.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
 CMakeFiles/GTools.dir/src/tools/markdown/MarkdownTool.cpp.obj: E:/GTools/src/tools/markdown/MarkdownTool.cpp
 CMakeFiles/GTools.dir/src/tools/markdown/MarkdownTool.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/GTools.dir/src/tools/markdown/MarkdownTool.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/GTools.dir/src/tools/markdown/MarkdownTool.cpp.obj"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/src/tools/markdown/MarkdownTool.cpp.obj -MF CMakeFiles\GTools.dir\src\tools\markdown\MarkdownTool.cpp.obj.d -o CMakeFiles\GTools.dir\src\tools\markdown\MarkdownTool.cpp.obj -c E:\GTools\src\tools\markdown\MarkdownTool.cpp
 
 CMakeFiles/GTools.dir/src/tools/markdown/MarkdownTool.cpp.i: cmake_force
@@ -283,7 +298,7 @@ CMakeFiles/GTools.dir/src/tools/ocr/BaiduOcrClient.cpp.obj: CMakeFiles/GTools.di
 CMakeFiles/GTools.dir/src/tools/ocr/BaiduOcrClient.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
 CMakeFiles/GTools.dir/src/tools/ocr/BaiduOcrClient.cpp.obj: E:/GTools/src/tools/ocr/BaiduOcrClient.cpp
 CMakeFiles/GTools.dir/src/tools/ocr/BaiduOcrClient.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/GTools.dir/src/tools/ocr/BaiduOcrClient.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/GTools.dir/src/tools/ocr/BaiduOcrClient.cpp.obj"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/src/tools/ocr/BaiduOcrClient.cpp.obj -MF CMakeFiles\GTools.dir\src\tools\ocr\BaiduOcrClient.cpp.obj.d -o CMakeFiles\GTools.dir\src\tools\ocr\BaiduOcrClient.cpp.obj -c E:\GTools\src\tools\ocr\BaiduOcrClient.cpp
 
 CMakeFiles/GTools.dir/src/tools/ocr/BaiduOcrClient.cpp.i: cmake_force
@@ -298,7 +313,7 @@ CMakeFiles/GTools.dir/src/tools/ocr/OcrTool.cpp.obj: CMakeFiles/GTools.dir/flags
 CMakeFiles/GTools.dir/src/tools/ocr/OcrTool.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
 CMakeFiles/GTools.dir/src/tools/ocr/OcrTool.cpp.obj: E:/GTools/src/tools/ocr/OcrTool.cpp
 CMakeFiles/GTools.dir/src/tools/ocr/OcrTool.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/GTools.dir/src/tools/ocr/OcrTool.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/GTools.dir/src/tools/ocr/OcrTool.cpp.obj"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/src/tools/ocr/OcrTool.cpp.obj -MF CMakeFiles\GTools.dir\src\tools\ocr\OcrTool.cpp.obj.d -o CMakeFiles\GTools.dir\src\tools\ocr\OcrTool.cpp.obj -c E:\GTools\src\tools\ocr\OcrTool.cpp
 
 CMakeFiles/GTools.dir/src/tools/ocr/OcrTool.cpp.i: cmake_force
@@ -313,7 +328,7 @@ CMakeFiles/GTools.dir/src/tools/screenshot/CaptureOverlay.cpp.obj: CMakeFiles/GT
 CMakeFiles/GTools.dir/src/tools/screenshot/CaptureOverlay.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
 CMakeFiles/GTools.dir/src/tools/screenshot/CaptureOverlay.cpp.obj: E:/GTools/src/tools/screenshot/CaptureOverlay.cpp
 CMakeFiles/GTools.dir/src/tools/screenshot/CaptureOverlay.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/GTools.dir/src/tools/screenshot/CaptureOverlay.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/GTools.dir/src/tools/screenshot/CaptureOverlay.cpp.obj"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/src/tools/screenshot/CaptureOverlay.cpp.obj -MF CMakeFiles\GTools.dir\src\tools\screenshot\CaptureOverlay.cpp.obj.d -o CMakeFiles\GTools.dir\src\tools\screenshot\CaptureOverlay.cpp.obj -c E:\GTools\src\tools\screenshot\CaptureOverlay.cpp
 
 CMakeFiles/GTools.dir/src/tools/screenshot/CaptureOverlay.cpp.i: cmake_force
@@ -328,7 +343,7 @@ CMakeFiles/GTools.dir/src/tools/screenshot/ScreenshotTool.cpp.obj: CMakeFiles/GT
 CMakeFiles/GTools.dir/src/tools/screenshot/ScreenshotTool.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
 CMakeFiles/GTools.dir/src/tools/screenshot/ScreenshotTool.cpp.obj: E:/GTools/src/tools/screenshot/ScreenshotTool.cpp
 CMakeFiles/GTools.dir/src/tools/screenshot/ScreenshotTool.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/GTools.dir/src/tools/screenshot/ScreenshotTool.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/GTools.dir/src/tools/screenshot/ScreenshotTool.cpp.obj"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/src/tools/screenshot/ScreenshotTool.cpp.obj -MF CMakeFiles\GTools.dir\src\tools\screenshot\ScreenshotTool.cpp.obj.d -o CMakeFiles\GTools.dir\src\tools\screenshot\ScreenshotTool.cpp.obj -c E:\GTools\src\tools\screenshot\ScreenshotTool.cpp
 
 CMakeFiles/GTools.dir/src/tools/screenshot/ScreenshotTool.cpp.i: cmake_force
@@ -343,7 +358,7 @@ CMakeFiles/GTools.dir/src/tools/translate/TencentTranslateClient.cpp.obj: CMakeF
 CMakeFiles/GTools.dir/src/tools/translate/TencentTranslateClient.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
 CMakeFiles/GTools.dir/src/tools/translate/TencentTranslateClient.cpp.obj: E:/GTools/src/tools/translate/TencentTranslateClient.cpp
 CMakeFiles/GTools.dir/src/tools/translate/TencentTranslateClient.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/GTools.dir/src/tools/translate/TencentTranslateClient.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/GTools.dir/src/tools/translate/TencentTranslateClient.cpp.obj"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/src/tools/translate/TencentTranslateClient.cpp.obj -MF CMakeFiles\GTools.dir\src\tools\translate\TencentTranslateClient.cpp.obj.d -o CMakeFiles\GTools.dir\src\tools\translate\TencentTranslateClient.cpp.obj -c E:\GTools\src\tools\translate\TencentTranslateClient.cpp
 
 CMakeFiles/GTools.dir/src/tools/translate/TencentTranslateClient.cpp.i: cmake_force
@@ -358,7 +373,7 @@ CMakeFiles/GTools.dir/src/tools/translate/TranslateTool.cpp.obj: CMakeFiles/GToo
 CMakeFiles/GTools.dir/src/tools/translate/TranslateTool.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
 CMakeFiles/GTools.dir/src/tools/translate/TranslateTool.cpp.obj: E:/GTools/src/tools/translate/TranslateTool.cpp
 CMakeFiles/GTools.dir/src/tools/translate/TranslateTool.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/GTools.dir/src/tools/translate/TranslateTool.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/GTools.dir/src/tools/translate/TranslateTool.cpp.obj"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/src/tools/translate/TranslateTool.cpp.obj -MF CMakeFiles\GTools.dir\src\tools\translate\TranslateTool.cpp.obj.d -o CMakeFiles\GTools.dir\src\tools\translate\TranslateTool.cpp.obj -c E:\GTools\src\tools\translate\TranslateTool.cpp
 
 CMakeFiles/GTools.dir/src/tools/translate/TranslateTool.cpp.i: cmake_force
@@ -373,7 +388,7 @@ CMakeFiles/GTools.dir/src/utils/CryptoUtils.cpp.obj: CMakeFiles/GTools.dir/flags
 CMakeFiles/GTools.dir/src/utils/CryptoUtils.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
 CMakeFiles/GTools.dir/src/utils/CryptoUtils.cpp.obj: E:/GTools/src/utils/CryptoUtils.cpp
 CMakeFiles/GTools.dir/src/utils/CryptoUtils.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/GTools.dir/src/utils/CryptoUtils.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/GTools.dir/src/utils/CryptoUtils.cpp.obj"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/src/utils/CryptoUtils.cpp.obj -MF CMakeFiles\GTools.dir\src\utils\CryptoUtils.cpp.obj.d -o CMakeFiles\GTools.dir\src\utils\CryptoUtils.cpp.obj -c E:\GTools\src\utils\CryptoUtils.cpp
 
 CMakeFiles/GTools.dir/src/utils/CryptoUtils.cpp.i: cmake_force
@@ -388,7 +403,7 @@ CMakeFiles/GTools.dir/src/utils/HotkeyManager.cpp.obj: CMakeFiles/GTools.dir/fla
 CMakeFiles/GTools.dir/src/utils/HotkeyManager.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
 CMakeFiles/GTools.dir/src/utils/HotkeyManager.cpp.obj: E:/GTools/src/utils/HotkeyManager.cpp
 CMakeFiles/GTools.dir/src/utils/HotkeyManager.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/GTools.dir/src/utils/HotkeyManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/GTools.dir/src/utils/HotkeyManager.cpp.obj"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/src/utils/HotkeyManager.cpp.obj -MF CMakeFiles\GTools.dir\src\utils\HotkeyManager.cpp.obj.d -o CMakeFiles\GTools.dir\src\utils\HotkeyManager.cpp.obj -c E:\GTools\src\utils\HotkeyManager.cpp
 
 CMakeFiles/GTools.dir/src/utils/HotkeyManager.cpp.i: cmake_force
@@ -403,7 +418,7 @@ CMakeFiles/GTools.dir/src/utils/Logger.cpp.obj: CMakeFiles/GTools.dir/flags.make
 CMakeFiles/GTools.dir/src/utils/Logger.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
 CMakeFiles/GTools.dir/src/utils/Logger.cpp.obj: E:/GTools/src/utils/Logger.cpp
 CMakeFiles/GTools.dir/src/utils/Logger.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/GTools.dir/src/utils/Logger.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/GTools.dir/src/utils/Logger.cpp.obj"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/src/utils/Logger.cpp.obj -MF CMakeFiles\GTools.dir\src\utils\Logger.cpp.obj.d -o CMakeFiles\GTools.dir\src\utils\Logger.cpp.obj -c E:\GTools\src\utils\Logger.cpp
 
 CMakeFiles/GTools.dir/src/utils/Logger.cpp.i: cmake_force
@@ -418,7 +433,7 @@ CMakeFiles/GTools.dir/src/utils/Notifier.cpp.obj: CMakeFiles/GTools.dir/flags.ma
 CMakeFiles/GTools.dir/src/utils/Notifier.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
 CMakeFiles/GTools.dir/src/utils/Notifier.cpp.obj: E:/GTools/src/utils/Notifier.cpp
 CMakeFiles/GTools.dir/src/utils/Notifier.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/GTools.dir/src/utils/Notifier.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/GTools.dir/src/utils/Notifier.cpp.obj"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/src/utils/Notifier.cpp.obj -MF CMakeFiles\GTools.dir\src\utils\Notifier.cpp.obj.d -o CMakeFiles\GTools.dir\src\utils\Notifier.cpp.obj -c E:\GTools\src\utils\Notifier.cpp
 
 CMakeFiles/GTools.dir/src/utils/Notifier.cpp.i: cmake_force
@@ -433,7 +448,7 @@ CMakeFiles/GTools.dir/src/utils/ScreenGrabber.cpp.obj: CMakeFiles/GTools.dir/fla
 CMakeFiles/GTools.dir/src/utils/ScreenGrabber.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
 CMakeFiles/GTools.dir/src/utils/ScreenGrabber.cpp.obj: E:/GTools/src/utils/ScreenGrabber.cpp
 CMakeFiles/GTools.dir/src/utils/ScreenGrabber.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/GTools.dir/src/utils/ScreenGrabber.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/GTools.dir/src/utils/ScreenGrabber.cpp.obj"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/src/utils/ScreenGrabber.cpp.obj -MF CMakeFiles\GTools.dir\src\utils\ScreenGrabber.cpp.obj.d -o CMakeFiles\GTools.dir\src\utils\ScreenGrabber.cpp.obj -c E:\GTools\src\utils\ScreenGrabber.cpp
 
 CMakeFiles/GTools.dir/src/utils/ScreenGrabber.cpp.i: cmake_force
@@ -448,7 +463,7 @@ CMakeFiles/GTools.dir/GTools_autogen/3YJK5W5UP7/qrc_gtools.cpp.obj: CMakeFiles/G
 CMakeFiles/GTools.dir/GTools_autogen/3YJK5W5UP7/qrc_gtools.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
 CMakeFiles/GTools.dir/GTools_autogen/3YJK5W5UP7/qrc_gtools.cpp.obj: GTools_autogen/3YJK5W5UP7/qrc_gtools.cpp
 CMakeFiles/GTools.dir/GTools_autogen/3YJK5W5UP7/qrc_gtools.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/GTools.dir/GTools_autogen/3YJK5W5UP7/qrc_gtools.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/GTools.dir/GTools_autogen/3YJK5W5UP7/qrc_gtools.cpp.obj"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/GTools_autogen/3YJK5W5UP7/qrc_gtools.cpp.obj -MF CMakeFiles\GTools.dir\GTools_autogen\3YJK5W5UP7\qrc_gtools.cpp.obj.d -o CMakeFiles\GTools.dir\GTools_autogen\3YJK5W5UP7\qrc_gtools.cpp.obj -c E:\GTools\build2\GTools_autogen\3YJK5W5UP7\qrc_gtools.cpp
 
 CMakeFiles/GTools.dir/GTools_autogen/3YJK5W5UP7/qrc_gtools.cpp.i: cmake_force
@@ -462,6 +477,7 @@ CMakeFiles/GTools.dir/GTools_autogen/3YJK5W5UP7/qrc_gtools.cpp.s: cmake_force
 # Object files for target GTools
 GTools_OBJECTS = \
 "CMakeFiles/GTools.dir/GTools_autogen/mocs_compilation.cpp.obj" \
+"CMakeFiles/GTools.dir/src/app/FloatingBall.cpp.obj" \
 "CMakeFiles/GTools.dir/src/app/LauncherWindow.cpp.obj" \
 "CMakeFiles/GTools.dir/src/app/LogWindow.cpp.obj" \
 "CMakeFiles/GTools.dir/src/app/SettingsWindow.cpp.obj" \
@@ -491,6 +507,7 @@ GTools_OBJECTS = \
 GTools_EXTERNAL_OBJECTS =
 
 GTools.exe: CMakeFiles/GTools.dir/GTools_autogen/mocs_compilation.cpp.obj
+GTools.exe: CMakeFiles/GTools.dir/src/app/FloatingBall.cpp.obj
 GTools.exe: CMakeFiles/GTools.dir/src/app/LauncherWindow.cpp.obj
 GTools.exe: CMakeFiles/GTools.dir/src/app/LogWindow.cpp.obj
 GTools.exe: CMakeFiles/GTools.dir/src/app/SettingsWindow.cpp.obj
@@ -524,7 +541,7 @@ GTools.exe: E:/Qt6/6.7.2/mingw_64/lib/libQt6EntryPoint.a
 GTools.exe: CMakeFiles/GTools.dir/linkLibs.rsp
 GTools.exe: CMakeFiles/GTools.dir/objects1.rsp
 GTools.exe: CMakeFiles/GTools.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable GTools.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable GTools.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\GTools.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

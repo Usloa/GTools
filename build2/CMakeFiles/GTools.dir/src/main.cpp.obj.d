@@ -461,13 +461,15 @@ CMakeFiles/GTools.dir/src/main.cpp.obj: E:\GTools\src\main.cpp \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qlayoutitem.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qboxlayout.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qgridlayout.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QToolButton \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtoolbutton.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h \
  E:\GTools\src\app/LogWindow.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QTableWidget \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtablewidget.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtableview.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QPushButton \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qpushbutton.h \
- E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QHBoxLayout \
  E:\GTools\src\app/SettingsWindow.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QLabel \

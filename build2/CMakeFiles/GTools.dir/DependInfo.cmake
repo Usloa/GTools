@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/GTools/build2/GTools_autogen/3YJK5W5UP7/qrc_gtools.cpp" "CMakeFiles/GTools.dir/GTools_autogen/3YJK5W5UP7/qrc_gtools.cpp.obj" "gcc" "CMakeFiles/GTools.dir/GTools_autogen/3YJK5W5UP7/qrc_gtools.cpp.obj.d"
   "E:/GTools/build2/GTools_autogen/mocs_compilation.cpp" "CMakeFiles/GTools.dir/GTools_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/GTools.dir/GTools_autogen/mocs_compilation.cpp.obj.d"
+  "E:/GTools/src/app/FloatingBall.cpp" "CMakeFiles/GTools.dir/src/app/FloatingBall.cpp.obj" "gcc" "CMakeFiles/GTools.dir/src/app/FloatingBall.cpp.obj.d"
   "E:/GTools/src/app/LauncherWindow.cpp" "CMakeFiles/GTools.dir/src/app/LauncherWindow.cpp.obj" "gcc" "CMakeFiles/GTools.dir/src/app/LauncherWindow.cpp.obj.d"
   "E:/GTools/src/app/LogWindow.cpp" "CMakeFiles/GTools.dir/src/app/LogWindow.cpp.obj" "gcc" "CMakeFiles/GTools.dir/src/app/LogWindow.cpp.obj.d"
   "E:/GTools/src/app/SettingsWindow.cpp" "CMakeFiles/GTools.dir/src/app/SettingsWindow.cpp.obj" "gcc" "CMakeFiles/GTools.dir/src/app/SettingsWindow.cpp.obj.d"

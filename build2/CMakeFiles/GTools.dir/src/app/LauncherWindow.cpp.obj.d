@@ -440,6 +440,12 @@ CMakeFiles/GTools.dir/src/app/LauncherWindow.cpp.obj: \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qlayoutitem.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qboxlayout.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qgridlayout.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QToolButton \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtoolbutton.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h \
+ E:\GTools\src\app\FloatingBall.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/QPoint \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qpoint.h \
  E:/GTools/src/core/ToolRegistry.h E:/GTools/src/core/Tool.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/QString \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qstring.h \
@@ -476,6 +482,7 @@ CMakeFiles/GTools.dir/src/app/LauncherWindow.cpp.obj: \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qcoreapplication_platform.h \
  E:/Qt6/6.7.2/mingw_64/include/QtGui/qinputmethod.h \
  E:/Qt6/6.7.2/mingw_64/include/QtGui/qguiapplication_platform.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/QMouseEvent \
  E:/Qt6/6.7.2/mingw_64/include/QtGui/QScreen \
  E:/Qt6/6.7.2/mingw_64/include/QtGui/qscreen.h \
  E:/Qt6/6.7.2/mingw_64/include/QtGui/QGuiApplication \
@@ -483,4 +490,7 @@ CMakeFiles/GTools.dir/src/app/LauncherWindow.cpp.obj: \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QGraphicsDropShadowEffect \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qgraphicseffect.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QApplication \
- E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qapplication.h
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qapplication.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QHBoxLayout \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QMenu \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qmenu.h

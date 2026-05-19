@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GTools.dir/GTools_autogen/3YJK5W5UP7/qrc_gtools.cpp.obj.d"
   "CMakeFiles/GTools.dir/GTools_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/GTools.dir/GTools_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/GTools.dir/src/app/FloatingBall.cpp.obj"
+  "CMakeFiles/GTools.dir/src/app/FloatingBall.cpp.obj.d"
   "CMakeFiles/GTools.dir/src/app/LauncherWindow.cpp.obj"
   "CMakeFiles/GTools.dir/src/app/LauncherWindow.cpp.obj.d"
   "CMakeFiles/GTools.dir/src/app/LogWindow.cpp.obj"

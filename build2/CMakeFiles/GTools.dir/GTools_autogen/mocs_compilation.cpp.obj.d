@@ -1,7 +1,7 @@
 CMakeFiles/GTools.dir/GTools_autogen/mocs_compilation.cpp.obj: \
  E:\GTools\build2\GTools_autogen\mocs_compilation.cpp \
- E:\GTools\build2\GTools_autogen\ISMKEKEPX5/moc_LauncherWindow.cpp \
- E:/GTools/src/app/LauncherWindow.h \
+ E:\GTools\build2\GTools_autogen\ISMKEKEPX5/moc_FloatingBall.cpp \
+ E:/GTools/src/app/FloatingBall.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QWidget \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qwidget.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -407,6 +407,11 @@ CMakeFiles/GTools.dir/GTools_autogen/mocs_compilation.cpp.obj: \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h \
  E:/Qt6/6.7.2/mingw_64/include/QtGui/qcursor.h \
  E:/Qt6/6.7.2/mingw_64/include/QtGui/qbitmap.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/QPoint \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qpoint.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qtmochelpers.h \
+ E:\GTools\build2\GTools_autogen\ISMKEKEPX5/moc_LauncherWindow.cpp \
+ E:/GTools/src/app/LauncherWindow.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QLineEdit \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qlineedit.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qframe.h \
@@ -442,7 +447,9 @@ CMakeFiles/GTools.dir/GTools_autogen/mocs_compilation.cpp.obj: \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qlayoutitem.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qboxlayout.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qgridlayout.h \
- E:/Qt6/6.7.2/mingw_64/include/QtCore/qtmochelpers.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QToolButton \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtoolbutton.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h \
  E:\GTools\build2\GTools_autogen\ISMKEKEPX5/moc_LogWindow.cpp \
  E:/GTools/src/app/LogWindow.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QTableWidget \
@@ -450,7 +457,6 @@ CMakeFiles/GTools.dir/GTools_autogen/mocs_compilation.cpp.obj: \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtableview.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QPushButton \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qpushbutton.h \
- E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QHBoxLayout \
  E:\GTools\build2\GTools_autogen\ISMKEKEPX5/moc_SettingsWindow.cpp \
  E:/GTools/src/app/SettingsWindow.h \
@@ -578,8 +584,6 @@ CMakeFiles/GTools.dir/GTools_autogen/mocs_compilation.cpp.obj: \
  E:/GTools/src/tools/ocr/OcrTool.h \
  E:\GTools\build2\GTools_autogen\KLMGQWVREM/moc_CaptureOverlay.cpp \
  E:/GTools/src/tools/screenshot/CaptureOverlay.h \
- E:/Qt6/6.7.2/mingw_64/include/QtCore/QPoint \
- E:/Qt6/6.7.2/mingw_64/include/QtCore/qpoint.h \
  E:\GTools\build2\GTools_autogen\KLMGQWVREM/moc_ScreenshotTool.cpp \
  E:/GTools/src/tools/screenshot/ScreenshotTool.h \
  E:\GTools\build2\GTools_autogen\XEQUGZOYR6/moc_TencentTranslateClient.cpp \

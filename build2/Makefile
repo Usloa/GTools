@@ -202,6 +202,30 @@ GTools_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/GTools_autogen/mocs_compilation.cpp.s
 .PHONY : GTools_autogen/mocs_compilation.cpp.s
 
+src/app/FloatingBall.obj: src/app/FloatingBall.cpp.obj
+.PHONY : src/app/FloatingBall.obj
+
+# target to build an object file
+src/app/FloatingBall.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/src/app/FloatingBall.cpp.obj
+.PHONY : src/app/FloatingBall.cpp.obj
+
+src/app/FloatingBall.i: src/app/FloatingBall.cpp.i
+.PHONY : src/app/FloatingBall.i
+
+# target to preprocess a source file
+src/app/FloatingBall.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/src/app/FloatingBall.cpp.i
+.PHONY : src/app/FloatingBall.cpp.i
+
+src/app/FloatingBall.s: src/app/FloatingBall.cpp.s
+.PHONY : src/app/FloatingBall.s
+
+# target to generate assembly for a file
+src/app/FloatingBall.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/src/app/FloatingBall.cpp.s
+.PHONY : src/app/FloatingBall.cpp.s
+
 src/app/LauncherWindow.obj: src/app/LauncherWindow.cpp.obj
 .PHONY : src/app/LauncherWindow.obj
 
@@ -771,6 +795,9 @@ help:
 	@echo ... GTools_autogen/mocs_compilation.obj
 	@echo ... GTools_autogen/mocs_compilation.i
 	@echo ... GTools_autogen/mocs_compilation.s
+	@echo ... src/app/FloatingBall.obj
+	@echo ... src/app/FloatingBall.i
+	@echo ... src/app/FloatingBall.s
 	@echo ... src/app/LauncherWindow.obj
 	@echo ... src/app/LauncherWindow.i
 	@echo ... src/app/LauncherWindow.s
