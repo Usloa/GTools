@@ -163,14 +163,14 @@ void LauncherWindow::keyPressEvent(QKeyEvent *e) {
 
 void LauncherWindow::mousePressEvent(QMouseEvent *e) {
     if (e->button() == Qt::LeftButton) {
-        m_dragStart = e->globalPosition().toPoint() - frameGeometry().topLeft();
+        m_dragStart = e->globalPosition().toPoint() - pos();
         m_dragging = false;
     }
     QWidget::mousePressEvent(e);
 }
 
 void LauncherWindow::mouseMoveEvent(QMouseEvent *e) {
-    if (e->buttons() & Qt::LeftButton) {
+    if (e->buttons() & Qt::LeftButton && !m_dragStart.isNull()) {
         move(e->globalPosition().toPoint() - m_dragStart);
         m_dragging = true;
     }
@@ -179,6 +179,7 @@ void LauncherWindow::mouseMoveEvent(QMouseEvent *e) {
 
 void LauncherWindow::mouseReleaseEvent(QMouseEvent *e) {
     m_dragging = false;
+    m_dragStart = QPoint();
     QWidget::mouseReleaseEvent(e);
 }
 

@@ -32,7 +32,7 @@ void FloatingBall::paintEvent(QPaintEvent *) {
 
 void FloatingBall::mousePressEvent(QMouseEvent *event) {
     if (event->button() == Qt::LeftButton) {
-        m_dragStart = event->globalPosition().toPoint() - frameGeometry().topLeft();
+        m_dragStart = event->globalPosition().toPoint() - pos();
         m_dragging = false;
     }
 }
