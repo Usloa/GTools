@@ -15,6 +15,10 @@ public:
     void showLauncher();
     void hideLauncher();
 
+signals:
+    void settingsRequested();
+    void logRequested();
+
 protected:
     bool event(QEvent *e) override;
     void keyPressEvent(QKeyEvent *e) override;

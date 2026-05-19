@@ -49,6 +49,14 @@ int main(int argc, char *argv[]) {
     // Settings window
     SettingsWindow settingsWindow;
 
+    // Connect launcher menu signals
+    QObject::connect(&launcher, &LauncherWindow::settingsRequested, [&]() {
+        settingsWindow.show(); settingsWindow.raise(); settingsWindow.activateWindow();
+    });
+    QObject::connect(&launcher, &LauncherWindow::logRequested, [&]() {
+        logWindow.show(); logWindow.raise(); logWindow.activateWindow();
+    });
+
     // Global hotkey: Alt+Space
     HotkeyManager hotkey;
     if (!hotkey.registerHotkey(1, MOD_ALT, VK_SPACE)) {

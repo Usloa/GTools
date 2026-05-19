@@ -102,6 +102,13 @@ LauncherWindow::LauncherWindow(QWidget *parent) : QWidget(parent) {
 
     connect(m_menuBtn, &QToolButton::customContextMenuRequested, [this](const QPoint &pos) {
         QMenu menu;
+        menu.setStyleSheet(
+            "QMenu { background: #ffffff; border: 1px solid #e0e0e0; border-radius: 6px; padding: 4px; }"
+            "QMenu::item { padding: 6px 20px; border-radius: 4px; }"
+            "QMenu::item:selected { background: #667eea; color: white; }");
+        menu.addAction(QString::fromUtf8("设置"), [this]() { emit settingsRequested(); });
+        menu.addAction(QString::fromUtf8("日志"), [this]() { emit logRequested(); });
+        menu.addSeparator();
         menu.addAction(QString::fromUtf8("缩小为悬浮球"), this, &LauncherWindow::onCollapseToFloat);
         menu.exec(m_menuBtn->mapToGlobal(pos));
     });
