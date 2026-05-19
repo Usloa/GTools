@@ -3,6 +3,7 @@
 #include <QObject>
 
 class TencentTranslateClient;
+class BaiduOcrClient;
 
 class TranslateTool : public QObject, public Tool {
     Q_OBJECT
@@ -17,5 +18,8 @@ public:
     void activate(QWidget *parent) override;
 
 private:
+    void showResult(const QString &ocrText);
+
     TencentTranslateClient *m_client;
+    BaiduOcrClient *m_ocrClient;
 };

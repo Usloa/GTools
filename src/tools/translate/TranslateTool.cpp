@@ -1,5 +1,7 @@
 #include "TranslateTool.h"
 #include "TencentTranslateClient.h"
+#include "tools/ocr/BaiduOcrClient.h"
+#include "tools/screenshot/CaptureOverlay.h"
 #include <QWidget>
 #include <QVBoxLayout>
 #include <QHBoxLayout>
@@ -9,10 +11,36 @@
 #include <QLabel>
 #include <QApplication>
 #include <QClipboard>
+#include <QTimer>
 
-TranslateTool::TranslateTool() : m_client(new TencentTranslateClient(this)) {}
+TranslateTool::TranslateTool()
+    : m_client(new TencentTranslateClient(this))
+    , m_ocrClient(new BaiduOcrClient(this)) {}
 
-void TranslateTool::activate(QWidget *parent) {
+void TranslateTool::activate(QWidget *) {
+    QTimer::singleShot(200, this, [this]() {
+        auto *overlay = new CaptureOverlay;
+        connect(overlay, &CaptureOverlay::regionCaptured, this, [this](const QPixmap &pix) {
+            m_ocrClient->recognize(pix);
+        });
+        overlay->start();
+    });
+
+    connect(m_ocrClient, &BaiduOcrClient::recognized, this, &TranslateTool::showResult,
+            Qt::UniqueConnection);
+    connect(m_ocrClient, &BaiduOcrClient::error, this, [](const QString &msg) {
+        auto *win = new QWidget(nullptr);
+        win->setWindowTitle(QString::fromUtf8("快速翻译 - 错误"));
+        win->setAttribute(Qt::WA_DeleteOnClose);
+        win->setWindowFlags(Qt::Window | Qt::WindowStaysOnTopHint);
+        auto *layout = new QVBoxLayout(win);
+        auto *label = new QLabel(QString::fromUtf8("OCR识别失败: %1").arg(msg));
+        layout->addWidget(label);
+        win->show();
+    }, Qt::UniqueConnection);
+}
+
+void TranslateTool::showResult(const QString &ocrText) {
     auto *win = new QWidget(nullptr);
     win->setWindowTitle(QString::fromUtf8("快速翻译"));
     win->setAttribute(Qt::WA_DeleteOnClose);
@@ -34,8 +62,8 @@ void TranslateTool::activate(QWidget *parent) {
 
     auto *arrow = new QLabel(" → ");
     auto *tgtLang = new QComboBox;
-    tgtLang->addItem(QString::fromUtf8("英语"), "en");
     tgtLang->addItem(QString::fromUtf8("中文"), "zh");
+    tgtLang->addItem(QString::fromUtf8("英语"), "en");
     tgtLang->addItem(QString::fromUtf8("日语"), "ja");
     tgtLang->addItem(QString::fromUtf8("韩语"), "ko");
     tgtLang->addItem(QString::fromUtf8("法语"), "fr");
@@ -47,9 +75,9 @@ void TranslateTool::activate(QWidget *parent) {
     langLayout->addStretch();
     layout->addLayout(langLayout);
 
-    // Input
+    // OCR recognized text (source)
     auto *input = new QTextEdit;
-    input->setPlaceholderText(QString::fromUtf8("输入要翻译的文本..."));
+    input->setPlainText(ocrText);
     layout->addWidget(input);
 
     // Buttons
@@ -67,7 +95,6 @@ void TranslateTool::activate(QWidget *parent) {
     output->setPlaceholderText(QString::fromUtf8("翻译结果..."));
     layout->addWidget(output);
 
-    // Connections
     connect(m_client, &TencentTranslateClient::translated, output, &QTextEdit::setPlainText);
     connect(m_client, &TencentTranslateClient::error, output, &QTextEdit::setPlainText);
 
@@ -89,4 +116,12 @@ void TranslateTool::activate(QWidget *parent) {
 
     win->show();
     win->activateWindow();
+
+    // Auto-translate on open
+    if (!ocrText.trimmed().isEmpty()) {
+        QString src = srcLang->currentData().toString();
+        QString tgt = tgtLang->currentData().toString();
+        output->setPlainText(QString::fromUtf8("翻译中..."));
+        m_client->translate(ocrText.trimmed(), src, tgt);
+    }
 }
