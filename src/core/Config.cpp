@@ -1,5 +1,5 @@
 #include "Config.h"
-#include <QStandardPaths>
+#include <QCoreApplication>
 #include <QDir>
 #include <QFile>
 #include <QJsonDocument>
@@ -10,8 +10,7 @@ Config &Config::instance() {
 }
 
 QString Config::configPath() const {
-    QString dir = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);
-    QDir().mkpath(dir);
+    QString dir = QCoreApplication::applicationDirPath();
     return dir + "/config.json";
 }
 
