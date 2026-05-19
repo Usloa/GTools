@@ -2,6 +2,7 @@
 #include "FloatingBall.h"
 #include "core/ToolRegistry.h"
 #include <QKeyEvent>
+#include <QMouseEvent>
 #include <QScreen>
 #include <QGuiApplication>
 #include <QGraphicsDropShadowEffect>
@@ -158,6 +159,27 @@ void LauncherWindow::keyPressEvent(QKeyEvent *e) {
     } else {
         QWidget::keyPressEvent(e);
     }
+}
+
+void LauncherWindow::mousePressEvent(QMouseEvent *e) {
+    if (e->button() == Qt::LeftButton) {
+        m_dragStart = e->globalPosition().toPoint() - frameGeometry().topLeft();
+        m_dragging = false;
+    }
+    QWidget::mousePressEvent(e);
+}
+
+void LauncherWindow::mouseMoveEvent(QMouseEvent *e) {
+    if (e->buttons() & Qt::LeftButton) {
+        move(e->globalPosition().toPoint() - m_dragStart);
+        m_dragging = true;
+    }
+    QWidget::mouseMoveEvent(e);
+}
+
+void LauncherWindow::mouseReleaseEvent(QMouseEvent *e) {
+    m_dragging = false;
+    QWidget::mouseReleaseEvent(e);
 }
 
 void LauncherWindow::onInputChanged(const QString &text) {

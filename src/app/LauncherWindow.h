@@ -22,6 +22,9 @@ signals:
 protected:
     bool event(QEvent *e) override;
     void keyPressEvent(QKeyEvent *e) override;
+    void mousePressEvent(QMouseEvent *e) override;
+    void mouseMoveEvent(QMouseEvent *e) override;
+    void mouseReleaseEvent(QMouseEvent *e) override;
 
 private slots:
     void onInputChanged(const QString &text);
@@ -37,4 +40,6 @@ private:
     QListWidget *m_results;
     QVBoxLayout *m_layout;
     FloatingBall *m_floatingBall;
+    QPoint m_dragStart;
+    bool m_dragging = false;
 };
