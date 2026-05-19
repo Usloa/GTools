@@ -382,8 +382,15 @@ CMakeFiles/GTools.dir/src/core/Config.cpp.obj: \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qendian.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/QString \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qstring.h \
- E:/Qt6/6.7.2/mingw_64/include/QtCore/QStandardPaths \
- E:/Qt6/6.7.2/mingw_64/include/QtCore/qstandardpaths.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/QCoreApplication \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qcoreapplication.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qcoreevent.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qdeadlinetimer.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qelapsedtimer.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qeventloop.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qnativeinterface.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qcoreapplication_platform.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qcoreapplication.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/QDir \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qdir.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qfile.h \
