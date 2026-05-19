@@ -39,6 +39,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GTools.dir/src/utils/CryptoUtils.cpp.obj.d"
   "CMakeFiles/GTools.dir/src/utils/HotkeyManager.cpp.obj"
   "CMakeFiles/GTools.dir/src/utils/HotkeyManager.cpp.obj.d"
+  "CMakeFiles/GTools.dir/src/utils/Notifier.cpp.obj"
+  "CMakeFiles/GTools.dir/src/utils/Notifier.cpp.obj.d"
   "CMakeFiles/GTools.dir/src/utils/ScreenGrabber.cpp.obj"
   "CMakeFiles/GTools.dir/src/utils/ScreenGrabber.cpp.obj.d"
   "CMakeFiles/GTools_autogen.dir/AutogenUsed.txt"

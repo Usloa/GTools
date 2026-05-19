@@ -226,6 +226,54 @@ src/app/LauncherWindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/src/app/LauncherWindow.cpp.s
 .PHONY : src/app/LauncherWindow.cpp.s
 
+src/app/LogWindow.obj: src/app/LogWindow.cpp.obj
+.PHONY : src/app/LogWindow.obj
+
+# target to build an object file
+src/app/LogWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/src/app/LogWindow.cpp.obj
+.PHONY : src/app/LogWindow.cpp.obj
+
+src/app/LogWindow.i: src/app/LogWindow.cpp.i
+.PHONY : src/app/LogWindow.i
+
+# target to preprocess a source file
+src/app/LogWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/src/app/LogWindow.cpp.i
+.PHONY : src/app/LogWindow.cpp.i
+
+src/app/LogWindow.s: src/app/LogWindow.cpp.s
+.PHONY : src/app/LogWindow.s
+
+# target to generate assembly for a file
+src/app/LogWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/src/app/LogWindow.cpp.s
+.PHONY : src/app/LogWindow.cpp.s
+
+src/app/SettingsWindow.obj: src/app/SettingsWindow.cpp.obj
+.PHONY : src/app/SettingsWindow.obj
+
+# target to build an object file
+src/app/SettingsWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/src/app/SettingsWindow.cpp.obj
+.PHONY : src/app/SettingsWindow.cpp.obj
+
+src/app/SettingsWindow.i: src/app/SettingsWindow.cpp.i
+.PHONY : src/app/SettingsWindow.i
+
+# target to preprocess a source file
+src/app/SettingsWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/src/app/SettingsWindow.cpp.i
+.PHONY : src/app/SettingsWindow.cpp.i
+
+src/app/SettingsWindow.s: src/app/SettingsWindow.cpp.s
+.PHONY : src/app/SettingsWindow.s
+
+# target to generate assembly for a file
+src/app/SettingsWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/src/app/SettingsWindow.cpp.s
+.PHONY : src/app/SettingsWindow.cpp.s
+
 src/core/Config.obj: src/core/Config.cpp.obj
 .PHONY : src/core/Config.obj
 
@@ -634,6 +682,54 @@ src/utils/HotkeyManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/src/utils/HotkeyManager.cpp.s
 .PHONY : src/utils/HotkeyManager.cpp.s
 
+src/utils/Logger.obj: src/utils/Logger.cpp.obj
+.PHONY : src/utils/Logger.obj
+
+# target to build an object file
+src/utils/Logger.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/src/utils/Logger.cpp.obj
+.PHONY : src/utils/Logger.cpp.obj
+
+src/utils/Logger.i: src/utils/Logger.cpp.i
+.PHONY : src/utils/Logger.i
+
+# target to preprocess a source file
+src/utils/Logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/src/utils/Logger.cpp.i
+.PHONY : src/utils/Logger.cpp.i
+
+src/utils/Logger.s: src/utils/Logger.cpp.s
+.PHONY : src/utils/Logger.s
+
+# target to generate assembly for a file
+src/utils/Logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/src/utils/Logger.cpp.s
+.PHONY : src/utils/Logger.cpp.s
+
+src/utils/Notifier.obj: src/utils/Notifier.cpp.obj
+.PHONY : src/utils/Notifier.obj
+
+# target to build an object file
+src/utils/Notifier.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/src/utils/Notifier.cpp.obj
+.PHONY : src/utils/Notifier.cpp.obj
+
+src/utils/Notifier.i: src/utils/Notifier.cpp.i
+.PHONY : src/utils/Notifier.i
+
+# target to preprocess a source file
+src/utils/Notifier.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/src/utils/Notifier.cpp.i
+.PHONY : src/utils/Notifier.cpp.i
+
+src/utils/Notifier.s: src/utils/Notifier.cpp.s
+.PHONY : src/utils/Notifier.s
+
+# target to generate assembly for a file
+src/utils/Notifier.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/src/utils/Notifier.cpp.s
+.PHONY : src/utils/Notifier.cpp.s
+
 src/utils/ScreenGrabber.obj: src/utils/ScreenGrabber.cpp.obj
 .PHONY : src/utils/ScreenGrabber.obj
 
@@ -678,6 +774,12 @@ help:
 	@echo ... src/app/LauncherWindow.obj
 	@echo ... src/app/LauncherWindow.i
 	@echo ... src/app/LauncherWindow.s
+	@echo ... src/app/LogWindow.obj
+	@echo ... src/app/LogWindow.i
+	@echo ... src/app/LogWindow.s
+	@echo ... src/app/SettingsWindow.obj
+	@echo ... src/app/SettingsWindow.i
+	@echo ... src/app/SettingsWindow.s
 	@echo ... src/core/Config.obj
 	@echo ... src/core/Config.i
 	@echo ... src/core/Config.s
@@ -729,6 +831,12 @@ help:
 	@echo ... src/utils/HotkeyManager.obj
 	@echo ... src/utils/HotkeyManager.i
 	@echo ... src/utils/HotkeyManager.s
+	@echo ... src/utils/Logger.obj
+	@echo ... src/utils/Logger.i
+	@echo ... src/utils/Logger.s
+	@echo ... src/utils/Notifier.obj
+	@echo ... src/utils/Notifier.i
+	@echo ... src/utils/Notifier.s
 	@echo ... src/utils/ScreenGrabber.obj
 	@echo ... src/utils/ScreenGrabber.i
 	@echo ... src/utils/ScreenGrabber.s

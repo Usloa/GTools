@@ -28,6 +28,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/GTools/src/tools/translate/TranslateTool.cpp" "CMakeFiles/GTools.dir/src/tools/translate/TranslateTool.cpp.obj" "gcc" "CMakeFiles/GTools.dir/src/tools/translate/TranslateTool.cpp.obj.d"
   "E:/GTools/src/utils/CryptoUtils.cpp" "CMakeFiles/GTools.dir/src/utils/CryptoUtils.cpp.obj" "gcc" "CMakeFiles/GTools.dir/src/utils/CryptoUtils.cpp.obj.d"
   "E:/GTools/src/utils/HotkeyManager.cpp" "CMakeFiles/GTools.dir/src/utils/HotkeyManager.cpp.obj" "gcc" "CMakeFiles/GTools.dir/src/utils/HotkeyManager.cpp.obj.d"
+  "E:/GTools/src/utils/Notifier.cpp" "CMakeFiles/GTools.dir/src/utils/Notifier.cpp.obj" "gcc" "CMakeFiles/GTools.dir/src/utils/Notifier.cpp.obj.d"
   "E:/GTools/src/utils/ScreenGrabber.cpp" "CMakeFiles/GTools.dir/src/utils/ScreenGrabber.cpp.obj" "gcc" "CMakeFiles/GTools.dir/src/utils/ScreenGrabber.cpp.obj.d"
   )
 

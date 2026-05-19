@@ -369,11 +369,26 @@ CMakeFiles/GTools.dir/src/utils/HotkeyManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GTools.dir/src/utils/HotkeyManager.cpp.s"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\GTools\src\utils\HotkeyManager.cpp -o CMakeFiles\GTools.dir\src\utils\HotkeyManager.cpp.s
 
+CMakeFiles/GTools.dir/src/utils/Notifier.cpp.obj: CMakeFiles/GTools.dir/flags.make
+CMakeFiles/GTools.dir/src/utils/Notifier.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
+CMakeFiles/GTools.dir/src/utils/Notifier.cpp.obj: src/utils/Notifier.cpp
+CMakeFiles/GTools.dir/src/utils/Notifier.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/GTools.dir/src/utils/Notifier.cpp.obj"
+	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/src/utils/Notifier.cpp.obj -MF CMakeFiles\GTools.dir\src\utils\Notifier.cpp.obj.d -o CMakeFiles\GTools.dir\src\utils\Notifier.cpp.obj -c E:\GTools\src\utils\Notifier.cpp
+
+CMakeFiles/GTools.dir/src/utils/Notifier.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GTools.dir/src/utils/Notifier.cpp.i"
+	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\GTools\src\utils\Notifier.cpp > CMakeFiles\GTools.dir\src\utils\Notifier.cpp.i
+
+CMakeFiles/GTools.dir/src/utils/Notifier.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GTools.dir/src/utils/Notifier.cpp.s"
+	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\GTools\src\utils\Notifier.cpp -o CMakeFiles\GTools.dir\src\utils\Notifier.cpp.s
+
 CMakeFiles/GTools.dir/src/utils/ScreenGrabber.cpp.obj: CMakeFiles/GTools.dir/flags.make
 CMakeFiles/GTools.dir/src/utils/ScreenGrabber.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
 CMakeFiles/GTools.dir/src/utils/ScreenGrabber.cpp.obj: src/utils/ScreenGrabber.cpp
 CMakeFiles/GTools.dir/src/utils/ScreenGrabber.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/GTools.dir/src/utils/ScreenGrabber.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/GTools.dir/src/utils/ScreenGrabber.cpp.obj"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/src/utils/ScreenGrabber.cpp.obj -MF CMakeFiles\GTools.dir\src\utils\ScreenGrabber.cpp.obj.d -o CMakeFiles\GTools.dir\src\utils\ScreenGrabber.cpp.obj -c E:\GTools\src\utils\ScreenGrabber.cpp
 
 CMakeFiles/GTools.dir/src/utils/ScreenGrabber.cpp.i: cmake_force
@@ -388,7 +403,7 @@ CMakeFiles/GTools.dir/GTools_autogen/3YJK5W5UP7/qrc_gtools.cpp.obj: CMakeFiles/G
 CMakeFiles/GTools.dir/GTools_autogen/3YJK5W5UP7/qrc_gtools.cpp.obj: CMakeFiles/GTools.dir/includes_CXX.rsp
 CMakeFiles/GTools.dir/GTools_autogen/3YJK5W5UP7/qrc_gtools.cpp.obj: GTools_autogen/3YJK5W5UP7/qrc_gtools.cpp
 CMakeFiles/GTools.dir/GTools_autogen/3YJK5W5UP7/qrc_gtools.cpp.obj: CMakeFiles/GTools.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/GTools.dir/GTools_autogen/3YJK5W5UP7/qrc_gtools.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\GTools\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/GTools.dir/GTools_autogen/3YJK5W5UP7/qrc_gtools.cpp.obj"
 	E:\Qt6\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GTools.dir/GTools_autogen/3YJK5W5UP7/qrc_gtools.cpp.obj -MF CMakeFiles\GTools.dir\GTools_autogen\3YJK5W5UP7\qrc_gtools.cpp.obj.d -o CMakeFiles\GTools.dir\GTools_autogen\3YJK5W5UP7\qrc_gtools.cpp.obj -c E:\GTools\GTools_autogen\3YJK5W5UP7\qrc_gtools.cpp
 
 CMakeFiles/GTools.dir/GTools_autogen/3YJK5W5UP7/qrc_gtools.cpp.i: cmake_force
@@ -420,6 +435,7 @@ GTools_OBJECTS = \
 "CMakeFiles/GTools.dir/src/tools/translate/TranslateTool.cpp.obj" \
 "CMakeFiles/GTools.dir/src/utils/CryptoUtils.cpp.obj" \
 "CMakeFiles/GTools.dir/src/utils/HotkeyManager.cpp.obj" \
+"CMakeFiles/GTools.dir/src/utils/Notifier.cpp.obj" \
 "CMakeFiles/GTools.dir/src/utils/ScreenGrabber.cpp.obj" \
 "CMakeFiles/GTools.dir/GTools_autogen/3YJK5W5UP7/qrc_gtools.cpp.obj"
 
@@ -445,6 +461,7 @@ GTools.exe: CMakeFiles/GTools.dir/src/tools/translate/TencentTranslateClient.cpp
 GTools.exe: CMakeFiles/GTools.dir/src/tools/translate/TranslateTool.cpp.obj
 GTools.exe: CMakeFiles/GTools.dir/src/utils/CryptoUtils.cpp.obj
 GTools.exe: CMakeFiles/GTools.dir/src/utils/HotkeyManager.cpp.obj
+GTools.exe: CMakeFiles/GTools.dir/src/utils/Notifier.cpp.obj
 GTools.exe: CMakeFiles/GTools.dir/src/utils/ScreenGrabber.cpp.obj
 GTools.exe: CMakeFiles/GTools.dir/GTools_autogen/3YJK5W5UP7/qrc_gtools.cpp.obj
 GTools.exe: CMakeFiles/GTools.dir/build.make
@@ -456,7 +473,7 @@ GTools.exe: E:/Qt6/6.7.2/mingw_64/lib/libQt6EntryPoint.a
 GTools.exe: CMakeFiles/GTools.dir/linkLibs.rsp
 GTools.exe: CMakeFiles/GTools.dir/objects1.rsp
 GTools.exe: CMakeFiles/GTools.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\GTools\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable GTools.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\GTools\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable GTools.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\GTools.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -634,6 +634,30 @@ src/utils/HotkeyManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/src/utils/HotkeyManager.cpp.s
 .PHONY : src/utils/HotkeyManager.cpp.s
 
+src/utils/Notifier.obj: src/utils/Notifier.cpp.obj
+.PHONY : src/utils/Notifier.obj
+
+# target to build an object file
+src/utils/Notifier.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/src/utils/Notifier.cpp.obj
+.PHONY : src/utils/Notifier.cpp.obj
+
+src/utils/Notifier.i: src/utils/Notifier.cpp.i
+.PHONY : src/utils/Notifier.i
+
+# target to preprocess a source file
+src/utils/Notifier.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/src/utils/Notifier.cpp.i
+.PHONY : src/utils/Notifier.cpp.i
+
+src/utils/Notifier.s: src/utils/Notifier.cpp.s
+.PHONY : src/utils/Notifier.s
+
+# target to generate assembly for a file
+src/utils/Notifier.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/src/utils/Notifier.cpp.s
+.PHONY : src/utils/Notifier.cpp.s
+
 src/utils/ScreenGrabber.obj: src/utils/ScreenGrabber.cpp.obj
 .PHONY : src/utils/ScreenGrabber.obj
 
@@ -729,6 +753,9 @@ help:
 	@echo ... src/utils/HotkeyManager.obj
 	@echo ... src/utils/HotkeyManager.i
 	@echo ... src/utils/HotkeyManager.s
+	@echo ... src/utils/Notifier.obj
+	@echo ... src/utils/Notifier.i
+	@echo ... src/utils/Notifier.s
 	@echo ... src/utils/ScreenGrabber.obj
 	@echo ... src/utils/ScreenGrabber.i
 	@echo ... src/utils/ScreenGrabber.s

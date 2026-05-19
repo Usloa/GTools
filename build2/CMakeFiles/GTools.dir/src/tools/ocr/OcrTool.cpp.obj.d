@@ -421,6 +421,9 @@ CMakeFiles/GTools.dir/src/tools/ocr/OcrTool.cpp.obj: \
  E:/GTools/src/tools/screenshot/CaptureOverlay.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/QPoint \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qpoint.h \
+ E:/GTools/src/utils/Notifier.h E:/GTools/src/utils/Logger.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/QList \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qlist.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QApplication \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qapplication.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qcoreapplication.h \
@@ -435,11 +438,6 @@ CMakeFiles/GTools.dir/src/tools/ocr/OcrTool.cpp.obj: \
  E:/Qt6/6.7.2/mingw_64/include/QtGui/qguiapplication_platform.h \
  E:/Qt6/6.7.2/mingw_64/include/QtGui/QClipboard \
  E:/Qt6/6.7.2/mingw_64/include/QtGui/qclipboard.h \
- E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QMessageBox \
- E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qmessagebox.h \
- E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qdialog.h \
- E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qwidget.h \
- E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/QTimer \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qtimer.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qbasictimer.h

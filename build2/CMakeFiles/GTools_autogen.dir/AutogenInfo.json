@@ -258,6 +258,18 @@
 			null
 		],
 		[
+			"E:/GTools/src/app/LogWindow.h",
+			"Mu",
+			"ISMKEKEPX5/moc_LogWindow.cpp",
+			null
+		],
+		[
+			"E:/GTools/src/app/SettingsWindow.h",
+			"Mu",
+			"ISMKEKEPX5/moc_SettingsWindow.cpp",
+			null
+		],
+		[
 			"E:/GTools/src/core/Config.h",
 			"Mu",
 			"PRMOGMWJPH/moc_Config.cpp",
@@ -355,6 +367,18 @@
 			null
 		],
 		[
+			"E:/GTools/src/utils/Logger.h",
+			"Mu",
+			"VSCBVMNR7M/moc_Logger.cpp",
+			null
+		],
+		[
+			"E:/GTools/src/utils/Notifier.h",
+			"Mu",
+			"VSCBVMNR7M/moc_Notifier.cpp",
+			null
+		],
+		[
 			"E:/GTools/src/utils/ScreenGrabber.h",
 			"Mu",
 			"VSCBVMNR7M/moc_ScreenGrabber.cpp",
@@ -437,6 +461,8 @@
 	"SOURCES" : 
 	[
 		[ "E:/GTools/src/app/LauncherWindow.cpp", "Mu", null ],
+		[ "E:/GTools/src/app/LogWindow.cpp", "Mu", null ],
+		[ "E:/GTools/src/app/SettingsWindow.cpp", "Mu", null ],
 		[ "E:/GTools/src/core/Config.cpp", "Mu", null ],
 		[ "E:/GTools/src/core/NetworkClient.cpp", "Mu", null ],
 		[ "E:/GTools/src/core/ToolRegistry.cpp", "Mu", null ],
@@ -458,6 +484,8 @@
 		[ "E:/GTools/src/tools/translate/TranslateTool.cpp", "Mu", null ],
 		[ "E:/GTools/src/utils/CryptoUtils.cpp", "Mu", null ],
 		[ "E:/GTools/src/utils/HotkeyManager.cpp", "Mu", null ],
+		[ "E:/GTools/src/utils/Logger.cpp", "Mu", null ],
+		[ "E:/GTools/src/utils/Notifier.cpp", "Mu", null ],
 		[ "E:/GTools/src/utils/ScreenGrabber.cpp", "Mu", null ]
 	],
 	"USE_BETTER_GRAPH" : false,

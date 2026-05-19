@@ -461,6 +461,21 @@ CMakeFiles/GTools.dir/src/main.cpp.obj: E:\GTools\src\main.cpp \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qlayoutitem.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qboxlayout.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qgridlayout.h \
+ E:\GTools\src\app/LogWindow.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QTableWidget \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtablewidget.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtableview.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QPushButton \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qpushbutton.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QHBoxLayout \
+ E:\GTools\src\app/SettingsWindow.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QLabel \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qlabel.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/qpicture.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qiodevice.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QGroupBox \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qgroupbox.h \
  E:\GTools\src\core/Config.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/QJsonObject \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qjsonobject.h \
@@ -718,6 +733,10 @@ CMakeFiles/GTools.dir/src/main.cpp.obj: E:\GTools\src\main.cpp \
  E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/winsvc.h \
  E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/mcx.h \
  E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/imm.h \
+ E:\GTools\src\utils/Logger.h E:/Qt6/6.7.2/mingw_64/include/QtCore/QList \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qlist.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/QDateTime \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qdatetime.h \
  E:\GTools\src\tools/screenshot/ScreenshotTool.h \
  E:\GTools\src\tools/ocr/OcrTool.h \
  E:\GTools\src\tools/colorpicker/ColorPickerTool.h \

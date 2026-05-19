@@ -48,6 +48,8 @@ GTools_autogen/timestamp: E:/CLion\ 2025.3.3/bin/cmake/win/x64/bin/cmake.exe \
   E:/GTools/resources/gtools.qrc \
   E:/GTools/src/app/LauncherWindow.cpp \
   E:/GTools/src/app/LauncherWindow.h \
+  E:/GTools/src/app/LogWindow.cpp \
+  E:/GTools/src/app/LogWindow.h \
   E:/GTools/src/core/Config.cpp \
   E:/GTools/src/core/Config.h \
   E:/GTools/src/core/NetworkClient.cpp \
@@ -82,6 +84,10 @@ GTools_autogen/timestamp: E:/CLion\ 2025.3.3/bin/cmake/win/x64/bin/cmake.exe \
   E:/GTools/src/utils/CryptoUtils.h \
   E:/GTools/src/utils/HotkeyManager.cpp \
   E:/GTools/src/utils/HotkeyManager.h \
+  E:/GTools/src/utils/Logger.cpp \
+  E:/GTools/src/utils/Logger.h \
+  E:/GTools/src/utils/Notifier.cpp \
+  E:/GTools/src/utils/Notifier.h \
   E:/GTools/src/utils/ScreenGrabber.cpp \
   E:/GTools/src/utils/ScreenGrabber.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/QAbstractNativeEventFilter \
@@ -312,12 +318,16 @@ GTools_autogen/timestamp: E:/CLion\ 2025.3.3/bin/cmake/win/x64/bin/cmake.exe \
   E:/Qt6/6.7.2/mingw_64/include/QtNetwork/qtnetwork-config.h \
   E:/Qt6/6.7.2/mingw_64/include/QtNetwork/qtnetworkexports.h \
   E:/Qt6/6.7.2/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QHBoxLayout \
   E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QLineEdit \
   E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QListWidget \
   E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QPlainTextEdit \
+  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QPushButton \
+  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QTableWidget \
   E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QTextBrowser \
   E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QVBoxLayout \
   E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QWidget \
+  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h \
   E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
   E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qabstractitemview.h \
   E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
@@ -332,12 +342,15 @@ GTools_autogen/timestamp: E:/CLion\ 2025.3.3/bin/cmake/win/x64/bin/cmake.exe \
   E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qlistview.h \
   E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qlistwidget.h \
   E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qplaintextedit.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qpushbutton.h \
   E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qrubberband.h \
   E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h \
   E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qslider.h \
   E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qstyle.h \
   E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qstyleoption.h \
   E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtabbar.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtableview.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtablewidget.h \
   E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h \
   E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtextbrowser.h \
   E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtextedit.h \
@@ -989,12 +1002,6 @@ GTools_autogen/timestamp: E:/CLion\ 2025.3.3/bin/cmake/win/x64/bin/cmake.exe \
   E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/wtypesbase.h
 
 
-E:/GTools/src/tools/markdown/MarkdownTool.cpp:
-
-E:/Qt6/6.7.2/mingw_64/include/QtCore/qstringconverter_base.h:
-
-E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:
-
 E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_socket_types.h:
 
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pconfigintrin.h:
@@ -1007,11 +1014,19 @@ E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake:
 
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_numeric.h:
 
-E:/GTools/src/tools/markdown/MarkdownHighlighter.h:
-
 E:/CLion\ 2025.3.3/bin/cmake/win/x64/share/cmake-4.1/Modules/FindThreads.cmake:
 
 E:/CLion\ 2025.3.3/bin/cmake/win/x64/bin/cmake.exe:
+
+E:/GTools/src/tools/markdown/MarkdownHighlighter.h:
+
+E:/GTools/src/app/LogWindow.h:
+
+E:/Qt6/6.7.2/mingw_64/include/QtCore/QDateTime:
+
+E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vp2intersectintrin.h:
+
+E:/CLion\ 2025.3.3/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXInformation.cmake:
 
 E:/Qt6/6.7.2/mingw_64/include/QtCore/QSizeF:
 
@@ -1020,12 +1035,6 @@ E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake:
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/bmiintrin.h:
 
 E:/CLion\ 2025.3.3/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU.cmake:
-
-E:/Qt6/6.7.2/mingw_64/include/QtCore/QDateTime:
-
-E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vp2intersectintrin.h:
-
-E:/CLion\ 2025.3.3/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXInformation.cmake:
 
 E:/CLion\ 2025.3.3/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-windres.cmake:
 
@@ -1044,6 +1053,8 @@ E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512erintr
 E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake:
 
 E:/GTools/src/tools/colorpicker/ColorPickerTool.cpp:
+
+E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QHBoxLayout:
 
 E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/wincon.h:
 
@@ -1227,6 +1238,12 @@ E:/CLion\ 2025.3.3/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-In
 
 E:/CLion\ 2025.3.3/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows.cmake:
 
+E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/concurrence.h:
+
+E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtwidgets-config.h:
+
+E:/GTools/src/app/LogWindow.cpp:
+
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/chrono:
 
 E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QWidget:
@@ -1257,11 +1274,11 @@ E:/Qt6/6.7.2/mingw_64/include/QtGui/qbrush.h:
 
 E:/GTools/src/app/LauncherWindow.cpp:
 
+E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersion.cmake:
+
 E:/GTools/src/app/LauncherWindow.h:
 
 E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qabstractslider.h:
-
-E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersion.cmake:
 
 E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake:
 
@@ -1277,7 +1294,13 @@ E:/GTools/src/core/NetworkClient.h:
 
 E:/Qt6/6.7.2/mingw_64/include/QtCore/qtcoreexports.h:
 
+E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cerrno:
+
+E:/GTools/src/utils/Notifier.cpp:
+
 E:/Qt6/6.7.2/mingw_64/include/QtCore/qfloat16.h:
+
+E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtableview.h:
 
 E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginAdditionalTargetInfo.cmake:
 
@@ -1306,6 +1329,12 @@ E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/fltwinerror.h:
 E:/GTools/src/tools/markdown/MarkdownEditor.h:
 
 E:/GTools/src/tools/markdown/MarkdownHighlighter.cpp:
+
+E:/GTools/src/tools/markdown/MarkdownTool.cpp:
+
+E:/Qt6/6.7.2/mingw_64/include/QtCore/qstringconverter_base.h:
+
+E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:
 
 E:/GTools/src/tools/markdown/MarkdownTool.h:
 
@@ -1355,8 +1384,6 @@ E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cm
 
 E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake:
 
-E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx2intrin.h:
-
 E:/GTools/src/tools/translate/TranslateTool.h:
 
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h:
@@ -1381,7 +1408,23 @@ E:/GTools/src/utils/HotkeyManager.cpp:
 
 E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake:
 
+E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QPushButton:
+
 E:/GTools/src/utils/HotkeyManager.h:
+
+E:/GTools/src/utils/Logger.cpp:
+
+E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/pshpack4.h:
+
+E:/Qt6/6.7.2/mingw_64/include/QtCore/qlogging.h:
+
+E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersionImpl.cmake:
+
+E:/GTools/src/utils/Logger.h:
+
+E:/GTools/src/utils/Notifier.h:
+
+E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake:
 
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h:
 
@@ -1479,15 +1522,13 @@ E:/Qt6/6.7.2/mingw_64/include/QtCore/qarraydata.h:
 
 E:/Qt6/6.7.2/mingw_64/include/QtCore/qarraydataops.h:
 
-E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxbf16intrin.h:
-
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef:
 
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc:
 
-E:/Qt6/6.7.2/mingw_64/include/QtCore/qassert.h:
-
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/ammintrin.h:
+
+E:/Qt6/6.7.2/mingw_64/include/QtCore/qassert.h:
 
 E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qslider.h:
 
@@ -1658,12 +1699,6 @@ E:/Qt6/6.7.2/mingw_64/include/QtCore/qiterable.h:
 E:/Qt6/6.7.2/mingw_64/include/QtCore/qlatin1stringview.h:
 
 E:/Qt6/6.7.2/mingw_64/include/QtCore/qline.h:
-
-E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersionImpl.cmake:
-
-E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/pshpack4.h:
-
-E:/Qt6/6.7.2/mingw_64/include/QtCore/qlogging.h:
 
 E:/Qt6/6.7.2/mingw_64/include/QtCore/qmalloc.h:
 
@@ -1977,10 +2012,6 @@ E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmak
 
 E:/Qt6/6.7.2/mingw_64/include/QtGui/qvectornd.h:
 
-E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/pthread_signal.h:
-
-E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxint8intrin.h:
-
 E:/Qt6/6.7.2/mingw_64/include/QtGui/qwindowdefs.h:
 
 E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/winsock.h:
@@ -2025,15 +2056,15 @@ E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cm
 
 E:/Qt6/6.7.2/mingw_64/include/QtNetwork/qnetworkreply.h:
 
+E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qstyleoption.h:
+
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/functional:
 
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono_io.h:
 
-E:/Qt6/6.7.2/mingw_64/include/QtNetwork/qnetworkrequest.h:
-
 E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateVersionlessTargets.cmake:
 
-E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qstyleoption.h:
+E:/Qt6/6.7.2/mingw_64/include/QtNetwork/qnetworkrequest.h:
 
 E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
 
@@ -2069,6 +2100,8 @@ E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets-relwi
 
 E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/mmiscapi2.h:
 
+E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qpushbutton.h:
+
 E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake:
 
 E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/timezoneapi.h:
@@ -2078,6 +2111,8 @@ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QLineEdit:
 E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QListWidget:
 
 E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointMinGW32Target.cmake:
+
+E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QTableWidget:
 
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc:
 
@@ -2092,6 +2127,8 @@ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QTextBrowser:
 E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/combaseapi.h:
 
 E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QVBoxLayout:
+
+E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h:
 
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdlib:
 
@@ -2137,11 +2174,9 @@ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qstyle.h:
 
 E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtabbar.h:
 
+E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtablewidget.h:
+
 E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtextbrowser.h:
-
-E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/concurrence.h:
-
-E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtwidgets-config.h:
 
 E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/playsoundapi.h:
 
@@ -2150,10 +2185,6 @@ E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake:
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h:
 
 E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtwidgetsexports.h:
-
-E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h:
-
-E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/adxintrin.h:
 
 E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qwidget.h:
 
@@ -2176,8 +2207,6 @@ E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditiona
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/charconv.h:
 
 E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:
-
-E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake:
 
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vpopcntdqvlintrin.h:
 
@@ -2239,9 +2268,9 @@ E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigV
 
 E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateVersionlessTargets.cmake:
 
-E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:
-
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxtileintrin.h:
+
+E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:
 
 E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake:
 
@@ -2367,9 +2396,21 @@ E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfig.cmake:
 
 E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateTargets.cmake:
 
+E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h:
+
+E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/adxintrin.h:
+
+E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxbf16intrin.h:
+
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxcomplexintrin.h:
 
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxfp16intrin.h:
+
+E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/pthread_signal.h:
+
+E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxint8intrin.h:
+
+E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx2intrin.h:
 
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx5124fmapsintrin.h:
 
@@ -2636,8 +2677,6 @@ E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/apiset.h:
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pkuintrin.h:
 
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cctype:
-
-E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cerrno:
 
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits:
 

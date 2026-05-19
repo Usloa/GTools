@@ -4,9 +4,12 @@
 #include <QSystemTrayIcon>
 #include <QMenu>
 #include "app/LauncherWindow.h"
+#include "app/LogWindow.h"
+#include "app/SettingsWindow.h"
 #include "core/Config.h"
 #include "core/ToolRegistry.h"
 #include "utils/HotkeyManager.h"
+#include "utils/Logger.h"
 #include "tools/screenshot/ScreenshotTool.h"
 #include "tools/ocr/OcrTool.h"
 #include "tools/colorpicker/ColorPickerTool.h"
@@ -27,6 +30,8 @@ int main(int argc, char *argv[]) {
 
     Config::instance().load();
 
+    Logger::instance().info(QString::fromUtf8("GTools 启动"));
+
     // Register tools
     auto &reg = ToolRegistry::instance();
     reg.registerTool(std::make_unique<OcrTool>());
@@ -37,6 +42,12 @@ int main(int argc, char *argv[]) {
 
     // Launcher window
     LauncherWindow launcher;
+
+    // Log window
+    LogWindow logWindow;
+
+    // Settings window
+    SettingsWindow settingsWindow;
 
     // Global hotkey: Alt+Space
     HotkeyManager hotkey;
@@ -63,6 +74,8 @@ int main(int argc, char *argv[]) {
 
     QMenu trayMenu;
     trayMenu.addAction(QString::fromUtf8("显示"), [&]() { launcher.showLauncher(); });
+    trayMenu.addAction(QString::fromUtf8("设置"), [&]() { settingsWindow.show(); settingsWindow.raise(); settingsWindow.activateWindow(); });
+    trayMenu.addAction(QString::fromUtf8("日志"), [&]() { logWindow.show(); logWindow.raise(); logWindow.activateWindow(); });
     trayMenu.addSeparator();
     trayMenu.addAction(QString::fromUtf8("退出"), [&]() { app.quit(); });
     tray.setContextMenu(&trayMenu);

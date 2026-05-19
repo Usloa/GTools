@@ -45,6 +45,10 @@ GTools_autogen/timestamp: \
 	E:/GTools/resources/gtools.qrc \
 	E:/GTools/src/app/LauncherWindow.cpp \
 	E:/GTools/src/app/LauncherWindow.h \
+	E:/GTools/src/app/LogWindow.cpp \
+	E:/GTools/src/app/LogWindow.h \
+	E:/GTools/src/app/SettingsWindow.cpp \
+	E:/GTools/src/app/SettingsWindow.h \
 	E:/GTools/src/core/Config.cpp \
 	E:/GTools/src/core/Config.h \
 	E:/GTools/src/core/NetworkClient.cpp \
@@ -79,6 +83,10 @@ GTools_autogen/timestamp: \
 	E:/GTools/src/utils/CryptoUtils.h \
 	E:/GTools/src/utils/HotkeyManager.cpp \
 	E:/GTools/src/utils/HotkeyManager.h \
+	E:/GTools/src/utils/Logger.cpp \
+	E:/GTools/src/utils/Logger.h \
+	E:/GTools/src/utils/Notifier.cpp \
+	E:/GTools/src/utils/Notifier.h \
 	E:/GTools/src/utils/ScreenGrabber.cpp \
 	E:/GTools/src/utils/ScreenGrabber.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtCore/QAbstractNativeEventFilter \
@@ -263,6 +271,7 @@ GTools_autogen/timestamp: \
 	E:/Qt6/6.7.2/mingw_64/include/QtGui/qpaintdevice.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtGui/qpalette.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtGui/qpen.h \
+	E:/Qt6/6.7.2/mingw_64/include/QtGui/qpicture.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtGui/qpixelformat.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtGui/qpixmap.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtGui/qpointingdevice.h \
@@ -309,12 +318,18 @@ GTools_autogen/timestamp: \
 	E:/Qt6/6.7.2/mingw_64/include/QtNetwork/qtnetwork-config.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtNetwork/qtnetworkexports.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QGroupBox \
+	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QHBoxLayout \
+	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QLabel \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QLineEdit \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QListWidget \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QPlainTextEdit \
+	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QPushButton \
+	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QTableWidget \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QTextBrowser \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QVBoxLayout \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QWidget \
+	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qabstractitemview.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
@@ -323,18 +338,23 @@ GTools_autogen/timestamp: \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qboxlayout.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qframe.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qgridlayout.h \
+	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qgroupbox.h \
+	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qlabel.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qlayout.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qlayoutitem.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qlineedit.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qlistview.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qlistwidget.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qplaintextedit.h \
+	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qpushbutton.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qrubberband.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qslider.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qstyle.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qstyleoption.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtabbar.h \
+	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtableview.h \
+	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtablewidget.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtextbrowser.h \
 	E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtextedit.h \

@@ -443,6 +443,23 @@ CMakeFiles/GTools.dir/GTools_autogen/mocs_compilation.cpp.obj: \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qboxlayout.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qgridlayout.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qtmochelpers.h \
+ E:\GTools\build2\GTools_autogen\ISMKEKEPX5/moc_LogWindow.cpp \
+ E:/GTools/src/app/LogWindow.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QTableWidget \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtablewidget.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtableview.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QPushButton \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qpushbutton.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QHBoxLayout \
+ E:\GTools\build2\GTools_autogen\ISMKEKEPX5/moc_SettingsWindow.cpp \
+ E:/GTools/src/app/SettingsWindow.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QLabel \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qlabel.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/qpicture.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qiodevice.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QGroupBox \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qgroupbox.h \
  E:\GTools\build2\GTools_autogen\PRMOGMWJPH/moc_NetworkClient.cpp \
  E:/GTools/src/core/NetworkClient.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/QObject \
@@ -469,7 +486,6 @@ CMakeFiles/GTools.dir/GTools_autogen/mocs_compilation.cpp.obj: \
  E:/Qt6/6.7.2/mingw_64/include/QtNetwork/qsslsocket.h \
  E:/Qt6/6.7.2/mingw_64/include/QtNetwork/qtcpsocket.h \
  E:/Qt6/6.7.2/mingw_64/include/QtNetwork/qabstractsocket.h \
- E:/Qt6/6.7.2/mingw_64/include/QtCore/qiodevice.h \
  E:/Qt6/6.7.2/mingw_64/include/QtNetwork/qhostaddress.h \
  E:/Qt6/6.7.2/mingw_64/include/QtNetwork/qsslerror.h \
  E:/Qt6/6.7.2/mingw_64/include/QtNetwork/qsslcertificate.h \
@@ -813,4 +829,6 @@ CMakeFiles/GTools.dir/GTools_autogen/mocs_compilation.cpp.obj: \
  E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
  E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/winsvc.h \
  E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/mcx.h \
- E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/imm.h
+ E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/imm.h \
+ E:\GTools\build2\GTools_autogen\VSCBVMNR7M/moc_Logger.cpp \
+ E:/GTools/src/utils/Logger.h E:/Qt6/6.7.2/mingw_64/include/QtCore/QList

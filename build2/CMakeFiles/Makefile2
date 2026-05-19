@@ -87,12 +87,12 @@ CMakeFiles/GTools.dir/all: CMakeFiles/GTools_autogen_timestamp_deps.dir/all
 CMakeFiles/GTools.dir/all: CMakeFiles/GTools_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 "Built target GTools"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27 "Built target GTools"
 .PHONY : CMakeFiles/GTools.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/GTools.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\GTools\build2\CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\GTools\build2\CMakeFiles 28
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/GTools.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\GTools\build2\CMakeFiles 0
 .PHONY : CMakeFiles/GTools.dir/rule
@@ -104,7 +104,7 @@ GTools: CMakeFiles/GTools.dir/rule
 # codegen rule for target.
 CMakeFiles/GTools.dir/codegen: CMakeFiles/GTools_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 "Finished codegen for target GTools"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27 "Finished codegen for target GTools"
 .PHONY : CMakeFiles/GTools.dir/codegen
 
 # clean rule for target.
@@ -151,7 +151,7 @@ CMakeFiles/GTools_autogen_timestamp_deps.dir/clean:
 CMakeFiles/GTools_autogen.dir/all: CMakeFiles/GTools_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools_autogen.dir\build.make CMakeFiles/GTools_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools_autogen.dir\build.make CMakeFiles/GTools_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=24 "Built target GTools_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=28 "Built target GTools_autogen"
 .PHONY : CMakeFiles/GTools_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -168,7 +168,7 @@ GTools_autogen: CMakeFiles/GTools_autogen.dir/rule
 # codegen rule for target.
 CMakeFiles/GTools_autogen.dir/codegen: CMakeFiles/GTools_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools_autogen.dir\build.make CMakeFiles/GTools_autogen.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=24 "Finished codegen for target GTools_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\GTools\build2\CMakeFiles --progress-num=28 "Finished codegen for target GTools_autogen"
 .PHONY : CMakeFiles/GTools_autogen.dir/codegen
 
 # clean rule for target.
