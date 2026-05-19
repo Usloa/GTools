@@ -413,6 +413,18 @@ CMakeFiles/GTools.dir/src/tools/translate/TranslateTool.cpp.obj: \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/QObject \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qobject.h \
  E:\GTools\src\tools\translate\TencentTranslateClient.h \
+ E:/GTools/src/tools/ocr/BaiduOcrClient.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/QPixmap \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/qpixmap.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/QDateTime \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qdatetime.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qcalendar.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qlocale.h \
+ E:/GTools/src/tools/screenshot/CaptureOverlay.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/QPoint \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qpoint.h \
+ E:/GTools/src/utils/Logger.h E:/Qt6/6.7.2/mingw_64/include/QtCore/QList \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qlist.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QVBoxLayout \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qboxlayout.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qlayout.h \
@@ -435,7 +447,6 @@ CMakeFiles/GTools.dir/src/tools/translate/TranslateTool.cpp.obj: \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qcombobox.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qstyleoption.h \
- E:/Qt6/6.7.2/mingw_64/include/QtCore/qlocale.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qabstractspinbox.h \
  E:/Qt6/6.7.2/mingw_64/include/QtGui/qvalidator.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qregularexpression.h \
@@ -466,4 +477,7 @@ CMakeFiles/GTools.dir/src/tools/translate/TranslateTool.cpp.obj: \
  E:/Qt6/6.7.2/mingw_64/include/QtGui/qinputmethod.h \
  E:/Qt6/6.7.2/mingw_64/include/QtGui/qguiapplication_platform.h \
  E:/Qt6/6.7.2/mingw_64/include/QtGui/QClipboard \
- E:/Qt6/6.7.2/mingw_64/include/QtGui/qclipboard.h
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/qclipboard.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/QTimer \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qtimer.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qbasictimer.h

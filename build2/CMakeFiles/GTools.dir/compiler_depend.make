@@ -1397,6 +1397,7 @@ CMakeFiles/GTools.dir/src/app/LauncherWindow.cpp.obj: E:/GTools/src/app/Launcher
   E:/Qt6/6.7.2/mingw_64/include/QtGui/QGuiApplication \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/QIcon \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/QKeyEvent \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/QMouseEvent \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/QScreen \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/QTransform \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qaction.h \
@@ -9299,8 +9300,15 @@ CMakeFiles/GTools.dir/src/tools/translate/TencentTranslateClient.cpp.obj: E:/GTo
 
 CMakeFiles/GTools.dir/src/tools/translate/TranslateTool.cpp.obj: E:/GTools/src/tools/translate/TranslateTool.cpp \
   E:/GTools/src/core/Tool.h \
+  E:/GTools/src/tools/ocr/BaiduOcrClient.h \
+  E:/GTools/src/tools/screenshot/CaptureOverlay.h \
+  E:/GTools/src/utils/Logger.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtCore/QDateTime \
+  E:/Qt6/6.7.2/mingw_64/include/QtCore/QList \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/QObject \
+  E:/Qt6/6.7.2/mingw_64/include/QtCore/QPoint \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/QString \
+  E:/Qt6/6.7.2/mingw_64/include/QtCore/QTimer \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/q20functional.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/q20memory.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/q20type_traits.h \
@@ -9315,11 +9323,13 @@ CMakeFiles/GTools.dir/src/tools/translate/TranslateTool.cpp.obj: E:/GTools/src/t
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qatomic.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qatomic_cxx11.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qbasicatomic.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtCore/qbasictimer.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qbindingstorage.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qbytearray.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qbytearrayalgorithms.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qbytearraylist.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qbytearrayview.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtCore/qcalendar.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qchar.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qcompare.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qcompare_impl.h \
@@ -9336,6 +9346,7 @@ CMakeFiles/GTools.dir/src/tools/translate/TranslateTool.cpp.obj: E:/GTools/src/t
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qcoreevent.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qdarwinhelpers.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qdatastream.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtCore/qdatetime.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qdeadlinetimer.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qdebug.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qelapsedtimer.h \
@@ -9413,6 +9424,7 @@ CMakeFiles/GTools.dir/src/tools/translate/TranslateTool.cpp.obj: E:/GTools/src/t
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qtenvironmentvariables.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qtextstream.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtCore/qtimer.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qtmetamacros.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qtnoop.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -9432,6 +9444,7 @@ CMakeFiles/GTools.dir/src/tools/translate/TranslateTool.cpp.obj: E:/GTools/src/t
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qyieldcpu.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/QClipboard \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/QIcon \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/QPixmap \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qaction.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qbitmap.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qbrush.h \
