@@ -1,0 +1,30 @@
+{
+	"BUILD_DIR" : "E:/GTools/GTools_autogen",
+	"CMAKE_BINARY_DIR" : "E:/GTools",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/GTools",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/GTools",
+	"CMAKE_SOURCE_DIR" : "E:/GTools",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "MinGW Makefiles",
+	"INCLUDE_DIR" : "E:/GTools/GTools_autogen/include",
+	"INPUTS" : 
+	[
+		"E:/GTools/resources/icons/translate.png",
+		"E:/GTools/resources/icons/gtools.png",
+		"E:/GTools/resources/icons/colorpicker.png",
+		"E:/GTools/resources/icons/markdown.png",
+		"E:/GTools/resources/icons/ocr.png",
+		"E:/GTools/resources/icons/screenshot.png"
+	],
+	"LOCK_FILE" : "E:/GTools/CMakeFiles/GTools_autogen.dir/AutoRcc_gtools_3YJK5W5UP7_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "gtools" ],
+	"OUTPUT_CHECKSUM" : "3YJK5W5UP7",
+	"OUTPUT_NAME" : "qrc_gtools.cpp",
+	"RCC_EXECUTABLE" : "E:/Qt6/6.7.2/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "E:/GTools/CMakeFiles/GTools_autogen.dir/AutoRcc_gtools_3YJK5W5UP7_Used.txt",
+	"SOURCE" : "E:/GTools/resources/gtools.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

@@ -1,4 +1,5 @@
 #include <QApplication>
+#include <QIcon>
 #include <QSharedMemory>
 #include <QSystemTrayIcon>
 #include <QMenu>
@@ -57,6 +58,7 @@ int main(int argc, char *argv[]) {
 
     // System tray
     QSystemTrayIcon tray;
+    tray.setIcon(QIcon(":/icons/gtools.png"));
     tray.setToolTip("GTools - Alt+Space to open");
 
     QMenu trayMenu;

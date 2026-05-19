@@ -17,14 +17,18 @@ LauncherWindow::LauncherWindow(QWidget *parent) : QWidget(parent) {
 
     m_input = new QLineEdit(this);
     m_input->setPlaceholderText(QString::fromUtf8("输入工具名称..."));
-    m_input->setFixedHeight(40);
+    m_input->setFixedHeight(44);
     m_input->setStyleSheet(
         "QLineEdit {"
         "  background: #ffffff;"
-        "  border: 1px solid #e0e0e0;"
-        "  border-radius: 8px;"
-        "  padding: 0 12px;"
+        "  border: 2px solid #e0e0e0;"
+        "  border-radius: 10px;"
+        "  padding: 0 16px;"
         "  font-size: 15px;"
+        "  selection-background-color: #667eea;"
+        "}"
+        "QLineEdit:focus {"
+        "  border: 2px solid #667eea;"
         "}");
     m_layout->addWidget(m_input);
 
@@ -35,13 +39,23 @@ LauncherWindow::LauncherWindow(QWidget *parent) : QWidget(parent) {
         "  border: 1px solid #e0e0e0;"
         "  border-radius: 8px;"
         "  padding: 4px;"
+        "  outline: none;"
         "}"
         "QListWidget::item {"
-        "  padding: 8px 12px;"
-        "  border-radius: 4px;"
+        "  padding: 10px 12px;"
+        "  border-radius: 6px;"
+        "  margin: 2px 0;"
+        "  background: transparent;"
+        "}"
+        "QListWidget::item:hover {"
+        "  background: #f5f7fa;"
         "}"
         "QListWidget::item:selected {"
-        "  background: #e8f0fe;"
+        "  background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #667eea, stop:1 #764ba2);"
+        "  color: white;"
+        "}"
+        "QListWidget::item:selected:hover {"
+        "  background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #5a6fd6, stop:1 #6a4190);"
         "}");
     m_results->setFixedHeight(240);
     m_results->hide();
@@ -55,7 +69,6 @@ LauncherWindow::LauncherWindow(QWidget *parent) : QWidget(parent) {
 
     connect(m_input, &QLineEdit::textChanged, this, &LauncherWindow::onInputChanged);
     connect(m_results, &QListWidget::itemActivated, this, &LauncherWindow::onItemActivated);
-    connect(m_results, &QListWidget::itemDoubleClicked, this, &LauncherWindow::onItemActivated);
 }
 
 void LauncherWindow::showLauncher() {

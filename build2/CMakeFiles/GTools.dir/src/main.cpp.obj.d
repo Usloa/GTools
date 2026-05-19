@@ -405,6 +405,8 @@ CMakeFiles/GTools.dir/src/main.cpp.obj: E:\GTools\src\main.cpp \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qlocale.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qvariant.h \
  E:/Qt6/6.7.2/mingw_64/include/QtGui/qguiapplication_platform.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/QIcon \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/qicon.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/QSharedMemory \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qsharedmemory.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qtipccommon.h \
@@ -471,8 +473,6 @@ CMakeFiles/GTools.dir/src/main.cpp.obj: E:\GTools\src\main.cpp \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/QString \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qstring.h \
  E:\GTools\src\core/ToolRegistry.h E:\GTools\src\core/Tool.h \
- E:/Qt6/6.7.2/mingw_64/include/QtGui/QIcon \
- E:/Qt6/6.7.2/mingw_64/include/QtGui/qicon.h \
  E:\GTools\src\utils/HotkeyManager.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/QObject \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qobject.h \
