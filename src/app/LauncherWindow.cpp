@@ -1,10 +1,13 @@
 #include "LauncherWindow.h"
+#include "FloatingBall.h"
 #include "core/ToolRegistry.h"
 #include <QKeyEvent>
 #include <QScreen>
 #include <QGuiApplication>
 #include <QGraphicsDropShadowEffect>
 #include <QApplication>
+#include <QHBoxLayout>
+#include <QMenu>
 
 LauncherWindow::LauncherWindow(QWidget *parent) : QWidget(parent) {
     setWindowFlags(Qt::FramelessWindowHint | Qt::WindowStaysOnTopHint | Qt::Tool);
@@ -14,6 +17,9 @@ LauncherWindow::LauncherWindow(QWidget *parent) : QWidget(parent) {
     m_layout = new QVBoxLayout(this);
     m_layout->setContentsMargins(12, 12, 12, 12);
     m_layout->setSpacing(4);
+
+    auto *inputRow = new QHBoxLayout();
+    inputRow->setSpacing(6);
 
     m_input = new QLineEdit(this);
     m_input->setPlaceholderText(QString::fromUtf8("输入工具名称..."));
@@ -30,7 +36,28 @@ LauncherWindow::LauncherWindow(QWidget *parent) : QWidget(parent) {
         "QLineEdit:focus {"
         "  border: 2px solid #667eea;"
         "}");
-    m_layout->addWidget(m_input);
+    inputRow->addWidget(m_input);
+
+    m_menuBtn = new QToolButton(this);
+    m_menuBtn->setText(QString::fromUtf8("⋮"));
+    m_menuBtn->setFixedSize(44, 44);
+    m_menuBtn->setContextMenuPolicy(Qt::CustomContextMenu);
+    m_menuBtn->setStyleSheet(
+        "QToolButton {"
+        "  background: #ffffff;"
+        "  border: 2px solid #e0e0e0;"
+        "  border-radius: 10px;"
+        "  font-size: 18px;"
+        "  font-weight: bold;"
+        "  color: #667eea;"
+        "}"
+        "QToolButton:hover {"
+        "  background: #f5f7fa;"
+        "  border-color: #667eea;"
+        "}");
+    inputRow->addWidget(m_menuBtn);
+
+    m_layout->addLayout(inputRow);
 
     m_results = new QListWidget(this);
     m_results->setStyleSheet(
@@ -69,6 +96,15 @@ LauncherWindow::LauncherWindow(QWidget *parent) : QWidget(parent) {
 
     connect(m_input, &QLineEdit::textChanged, this, &LauncherWindow::onInputChanged);
     connect(m_results, &QListWidget::itemActivated, this, &LauncherWindow::onItemActivated);
+
+    m_floatingBall = new FloatingBall();
+    connect(m_floatingBall, &FloatingBall::clicked, this, &LauncherWindow::onExpandFromFloat);
+
+    connect(m_menuBtn, &QToolButton::customContextMenuRequested, [this](const QPoint &pos) {
+        QMenu menu;
+        menu.addAction(QString::fromUtf8("缩小为悬浮球"), this, &LauncherWindow::onCollapseToFloat);
+        menu.exec(m_menuBtn->mapToGlobal(pos));
+    });
 }
 
 void LauncherWindow::showLauncher() {
@@ -146,4 +182,16 @@ void LauncherWindow::updateResults(const QString &query) {
         m_results->hide();
         adjustSize();
     }
+}
+
+void LauncherWindow::onCollapseToFloat() {
+    QPoint center = frameGeometry().center();
+    m_floatingBall->move(center.x() - 24, center.y() - 24);
+    hide();
+    m_floatingBall->show();
+}
+
+void LauncherWindow::onExpandFromFloat() {
+    m_floatingBall->hide();
+    showLauncher();
 }
