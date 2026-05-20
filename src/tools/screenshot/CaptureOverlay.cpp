@@ -20,6 +20,7 @@ void CaptureOverlay::start() {
     m_desktop = ScreenGrabber::grabAllScreens();
     QRect vr = ScreenGrabber::virtualDesktopRect();
     setGeometry(vr);
+    m_cursorPos = QCursor::pos() - vr.topLeft();
     showFullScreen();
     activateWindow();
     setFocus();
@@ -55,11 +56,9 @@ void CaptureOverlay::paintEvent(QPaintEvent *) {
     }
 
     // Crosshair lines at cursor position
-    if (!m_cursorPos.isNull()) {
-        p.setPen(QPen(QColor(0, 180, 255, 200), 1, Qt::DashLine));
-        p.drawLine(m_cursorPos.x(), 0, m_cursorPos.x(), height());
-        p.drawLine(0, m_cursorPos.y(), width(), m_cursorPos.y());
-    }
+    p.setPen(QPen(QColor(0, 180, 255, 200), 1, Qt::DashLine));
+    p.drawLine(m_cursorPos.x(), 0, m_cursorPos.x(), height());
+    p.drawLine(0, m_cursorPos.y(), width(), m_cursorPos.y());
 }
 
 void CaptureOverlay::mousePressEvent(QMouseEvent *e) {
