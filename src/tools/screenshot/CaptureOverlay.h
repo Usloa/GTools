@@ -24,6 +24,7 @@ private:
     QPixmap m_desktop;
     QPoint m_startPos;
     QPoint m_endPos;
+    QPoint m_cursorPos;
     bool m_selecting = false;
     bool m_selected = false;
 };

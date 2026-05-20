@@ -12,7 +12,8 @@ CaptureOverlay::CaptureOverlay(QWidget *parent) : QWidget(parent) {
     setWindowFlags(Qt::FramelessWindowHint | Qt::WindowStaysOnTopHint |
                    Qt::BypassWindowManagerHint);
     setAttribute(Qt::WA_DeleteOnClose);
-    setCursor(Qt::CrossCursor);
+    setMouseTracking(true);
+    setCursor(Qt::BlankCursor);
 }
 
 void CaptureOverlay::start() {
@@ -52,6 +53,13 @@ void CaptureOverlay::paintEvent(QPaintEvent *) {
         p.setPen(Qt::white);
         p.drawText(textRect, Qt::AlignLeft | Qt::AlignVCenter, sizeText);
     }
+
+    // Crosshair lines at cursor position
+    if (!m_cursorPos.isNull()) {
+        p.setPen(QPen(QColor(0, 180, 255, 200), 1, Qt::DashLine));
+        p.drawLine(m_cursorPos.x(), 0, m_cursorPos.x(), height());
+        p.drawLine(0, m_cursorPos.y(), width(), m_cursorPos.y());
+    }
 }
 
 void CaptureOverlay::mousePressEvent(QMouseEvent *e) {
@@ -68,10 +76,11 @@ void CaptureOverlay::mousePressEvent(QMouseEvent *e) {
 }
 
 void CaptureOverlay::mouseMoveEvent(QMouseEvent *e) {
+    m_cursorPos = e->pos();
     if (m_selecting) {
         m_endPos = e->pos();
-        update();
     }
+    update();
 }
 
 void CaptureOverlay::mouseReleaseEvent(QMouseEvent *e) {
