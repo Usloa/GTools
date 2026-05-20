@@ -24,6 +24,8 @@ void CaptureOverlay::start() {
     showFullScreen();
     activateWindow();
     setFocus();
+    grabMouse();
+    grabKeyboard();
 }
 
 void CaptureOverlay::paintEvent(QPaintEvent *) {
@@ -69,6 +71,8 @@ void CaptureOverlay::mousePressEvent(QMouseEvent *e) {
         m_selected = false;
         update();
     } else if (e->button() == Qt::RightButton) {
+        releaseMouse();
+        releaseKeyboard();
         emit cancelled();
         close();
     }
@@ -89,6 +93,8 @@ void CaptureOverlay::mouseReleaseEvent(QMouseEvent *e) {
         QRect sel = QRect(m_startPos, m_endPos).normalized();
         if (sel.width() > 3 && sel.height() > 3) {
             QPixmap captured = m_desktop.copy(sel);
+            releaseMouse();
+            releaseKeyboard();
             emit regionCaptured(captured);
             close();
         } else {
@@ -100,6 +106,8 @@ void CaptureOverlay::mouseReleaseEvent(QMouseEvent *e) {
 
 void CaptureOverlay::keyPressEvent(QKeyEvent *e) {
     if (e->key() == Qt::Key_Escape) {
+        releaseMouse();
+        releaseKeyboard();
         emit cancelled();
         close();
     }
