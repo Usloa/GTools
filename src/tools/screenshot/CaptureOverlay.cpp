@@ -58,7 +58,7 @@ void CaptureOverlay::paintEvent(QPaintEvent *) {
     }
 
     // Crosshair lines at cursor position
-    p.setPen(QPen(QColor(0, 180, 255, 200), 1, Qt::DashLine));
+    p.setPen(QPen(QColor(255, 255, 255, 200), 1, Qt::DashLine));
     p.drawLine(m_cursorPos.x(), 0, m_cursorPos.x(), height());
     p.drawLine(0, m_cursorPos.y(), width(), m_cursorPos.y());
 }
