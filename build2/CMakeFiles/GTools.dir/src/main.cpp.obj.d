@@ -483,6 +483,26 @@ CMakeFiles/GTools.dir/src/main.cpp.obj: E:\GTools\src\main.cpp \
  E:\GTools\src\app/ToolPanel.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QGridLayout \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qgridlayout.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/QKeyEvent \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/qevent.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/qeventpoint.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/qvector2d.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/qvectornd.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/qpointingdevice.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/qinputdevice.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/qscreen.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/QList \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qlist.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/QObject \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qobject.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/QRect \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qrect.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/QSize \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qsize.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/QSizeF \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/QTransform \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/qtransform.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/qscreen_platform.h \
  E:\GTools\src\core/Config.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/QJsonObject \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qjsonobject.h \
@@ -497,7 +517,6 @@ CMakeFiles/GTools.dir/src/main.cpp.obj: E:\GTools\src\main.cpp \
  E:\GTools\src\core/ToolRegistry.h E:\GTools\src\core/Tool.h \
  E:\GTools\src\utils/HotkeyManager.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/QObject \
- E:/Qt6/6.7.2/mingw_64/include/QtCore/qobject.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/QAbstractNativeEventFilter \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qabstractnativeeventfilter.h \
  E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/windows.h \
@@ -741,7 +760,6 @@ CMakeFiles/GTools.dir/src/main.cpp.obj: E:\GTools\src\main.cpp \
  E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/mcx.h \
  E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/imm.h \
  E:\GTools\src\utils/Logger.h E:/Qt6/6.7.2/mingw_64/include/QtCore/QList \
- E:/Qt6/6.7.2/mingw_64/include/QtCore/qlist.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/QDateTime \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qdatetime.h \
  E:\GTools\src\tools/screenshot/ScreenshotTool.h \

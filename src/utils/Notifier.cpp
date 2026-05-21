@@ -8,7 +8,7 @@ void Notifier::show(const QString &title, const QString &message) {
         static QSystemTrayIcon *tray = nullptr;
         if (!tray) {
             tray = new QSystemTrayIcon(qApp);
-            tray->setIcon(QIcon(":/icons/gtools.png"));
+            tray->setIcon(QIcon("E:/GTools/pic/GTools.png"));
             tray->show();
         }
         tray->showMessage(title, message, icon, 3000);

@@ -79,11 +79,11 @@ LauncherWindow::LauncherWindow(QWidget *parent) : QWidget(parent) {
         "  background: #f5f7fa;"
         "}"
         "QListWidget::item:selected {"
-        "  background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #667eea, stop:1 #764ba2);"
+        "  background: #667eea;"
         "  color: white;"
         "}"
         "QListWidget::item:selected:hover {"
-        "  background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #5a6fd6, stop:1 #6a4190);"
+        "  background: #5a6fd6;"
         "}");
     m_results->setFixedHeight(240);
     m_results->hide();

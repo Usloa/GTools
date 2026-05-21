@@ -251,6 +251,7 @@ GTools_autogen/timestamp: E:/CLion\ 2025.3.3/bin/cmake/win/x64/bin/cmake.exe \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qyieldcpu.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/QColor \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/QIcon \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/QKeyEvent \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/QPixmap \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/QSyntaxHighlighter \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/QTextCharFormat \
@@ -1331,14 +1332,6 @@ E:/Qt6/6.7.2/mingw_64/include/QtCore/qarraydatapointer.h:
 
 E:/GTools/src/tools/colorpicker/MagnifierWidget.cpp:
 
-E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/pthread_time.h:
-
-E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h:
-
-E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vldqintrin.h:
-
-E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake:
-
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h:
 
 E:/GTools/src/tools/colorpicker/MagnifierWidget.h:
@@ -1927,6 +1920,10 @@ E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/all
 
 E:/Qt6/6.7.2/mingw_64/include/QtGui/QIcon:
 
+E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/bcrypt.h:
+
+E:/Qt6/6.7.2/mingw_64/include/QtGui/QKeyEvent:
+
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h:
 
 E:/Qt6/6.7.2/mingw_64/include/QtGui/QTextCharFormat:
@@ -2419,6 +2416,14 @@ E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginConfig.cm
 
 E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake:
 
+E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/pthread_time.h:
+
+E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h:
+
+E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vldqintrin.h:
+
+E:/Qt6/6.7.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake:
+
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype:
 
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale:
@@ -2908,8 +2913,6 @@ E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/errno.h:
 E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/assert.h:
 
 E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/basetsd.h:
-
-E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/bcrypt.h:
 
 E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/dlgs.h:
 

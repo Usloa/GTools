@@ -3,6 +3,7 @@
 #include <QIcon>
 #include <QPixmap>
 #include <QEvent>
+#include <QKeyEvent>
 
 ToolPanel::ToolPanel(QWidget *parent) : QWidget(parent) {
     setupUI();
@@ -62,10 +63,35 @@ void ToolPanel::setupUI() {
 
     mainLayout->addLayout(m_gridLayout);
     mainLayout->addStretch();
+
+    // 底部设置按钮
+    auto *bottomLayout = new QHBoxLayout();
+    bottomLayout->addStretch();
+
+    auto *settingsBtn = new ToolButton(this);
+    settingsBtn->setFixedSize(32, 32);
+    settingsBtn->setToolTip(QString::fromUtf8("设置"));
+
+    auto *settingsLayout = new QVBoxLayout(settingsBtn);
+    settingsLayout->setContentsMargins(2, 2, 2, 2);
+    settingsLayout->setAlignment(Qt::AlignCenter);
+
+    auto *settingsIcon = new QLabel(settingsBtn);
+    QPixmap gearIcon("E:/GTools/pic/设置.png");
+    settingsIcon->setPixmap(gearIcon.scaled(20, 20, Qt::KeepAspectRatio, Qt::SmoothTransformation));
+    settingsIcon->setAlignment(Qt::AlignCenter);
+    settingsLayout->addWidget(settingsIcon);
+
+    connect(settingsBtn, &QPushButton::clicked, this, [this]() {
+        emit settingsRequested();
+    });
+
+    bottomLayout->addWidget(settingsBtn);
+    mainLayout->addLayout(bottomLayout);
 }
 
 void ToolPanel::addToolButton(const QString &id, const QString &name, const QString &iconPath) {
-    auto *btn = new QPushButton(this);
+    auto *btn = new ToolButton(this);
     btn->setFixedSize(80, 80);
     btn->setToolTip(name);
     

@@ -71,10 +71,11 @@ void SettingsWindow::setupUI() {
         "  height: 20px;"
         "  border-radius: 4px;"
         "  border: 2px solid #e0e0e0;"
+        "  background: #ffffff;"
         "}"
         "QCheckBox::indicator:checked {"
-        "  background: #667eea;"
         "  border-color: #667eea;"
+        "  image: url(E:/GTools/pic/勾选框已打勾.png);"
         "}"
     );
 
@@ -99,7 +100,7 @@ void SettingsWindow::setupUI() {
     m_saveBtn->setFixedHeight(44);
     m_saveBtn->setStyleSheet(
         "QPushButton {"
-        "  background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #667eea, stop:1 #764ba2);"
+        "  background: #667eea;"
         "  color: white;"
         "  border: none;"
         "  border-radius: 8px;"
@@ -107,10 +108,10 @@ void SettingsWindow::setupUI() {
         "  font-weight: bold;"
         "}"
         "QPushButton:hover {"
-        "  background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #5a6fd6, stop:1 #6a4190);"
+        "  background: #5a6fd6;"
         "}"
         "QPushButton:pressed {"
-        "  background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #4a5fc6, stop:1 #5a3180);"
+        "  background: #4a5fc6;"
         "}"
     );
     connect(m_saveBtn, &QPushButton::clicked, this, &SettingsWindow::onSaveClicked);

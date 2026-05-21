@@ -28,6 +28,7 @@ int main(int argc, char *argv[]) {
     app.setApplicationName("GTools");
     app.setOrganizationName("GTools");
     app.setQuitOnLastWindowClosed(false);
+    app.setWindowIcon(QIcon("E:/GTools/pic/GTools.png"));
 
     Config::instance().load();
 
@@ -68,6 +69,11 @@ int main(int argc, char *argv[]) {
             tool->activate(&toolPanel);
         }
     });
+    QObject::connect(&toolPanel, &ToolPanel::settingsRequested, [&]() {
+        settingsWindow.show();
+        settingsWindow.raise();
+        settingsWindow.activateWindow();
+    });
 
     // Global hotkey: Alt+Space - 显示工具面板
     HotkeyManager hotkey;
@@ -105,7 +111,7 @@ int main(int argc, char *argv[]) {
 
     // System tray
     QSystemTrayIcon tray;
-    tray.setIcon(QIcon(":/icons/gtools.png"));
+    tray.setIcon(QIcon("E:/GTools/pic/GTools.png"));
     tray.setToolTip("GTools - Alt+Space to open");
 
     QMenu trayMenu;

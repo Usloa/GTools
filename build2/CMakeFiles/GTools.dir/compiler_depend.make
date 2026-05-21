@@ -180,6 +180,7 @@ CMakeFiles/GTools.dir/GTools_autogen/mocs_compilation.cpp.obj: GTools_autogen/mo
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qyieldcpu.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/QColor \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/QIcon \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/QKeyEvent \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/QPixmap \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/QSyntaxHighlighter \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/QTextCharFormat \
@@ -2662,6 +2663,12 @@ CMakeFiles/GTools.dir/src/app/SettingsWindow.cpp.obj: E:/GTools/src/app/Settings
   E:/GTools/src/app/SettingsWindow.h
 
 CMakeFiles/GTools.dir/src/app/ToolPanel.cpp.obj: E:/GTools/src/app/ToolPanel.cpp \
+  E:/Qt6/6.7.2/mingw_64/include/QtCore/QEvent \
+  E:/Qt6/6.7.2/mingw_64/include/QtCore/QList \
+  E:/Qt6/6.7.2/mingw_64/include/QtCore/QObject \
+  E:/Qt6/6.7.2/mingw_64/include/QtCore/QRect \
+  E:/Qt6/6.7.2/mingw_64/include/QtCore/QSize \
+  E:/Qt6/6.7.2/mingw_64/include/QtCore/QSizeF \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/q20functional.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/q20memory.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/q20type_traits.h \
@@ -2691,10 +2698,16 @@ CMakeFiles/GTools.dir/src/app/ToolPanel.cpp.obj: E:/GTools/src/app/ToolPanel.cpp
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qcontainerinfo.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qcontainertools_impl.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qcontiguouscache.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtCore/qcoreapplication.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtCore/qcoreapplication_platform.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtCore/qcoreevent.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qdarwinhelpers.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qdatastream.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtCore/qdeadlinetimer.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qdebug.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtCore/qelapsedtimer.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qendian.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtCore/qeventloop.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qexceptionhandling.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qflags.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qfloat16.h \
@@ -2713,6 +2726,7 @@ CMakeFiles/GTools.dir/src/app/ToolPanel.cpp.obj: E:/GTools/src/app/ToolPanel.cpp
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qlatin1stringview.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qline.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qlist.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtCore/qlocale.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qlogging.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qmalloc.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qmap.h \
@@ -2722,6 +2736,7 @@ CMakeFiles/GTools.dir/src/app/ToolPanel.cpp.obj: E:/GTools/src/app/ToolPanel.cpp
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qmetatype.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qminmax.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qnamespace.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtCore/qnativeinterface.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qnumeric.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qobject.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qobject_impl.h \
@@ -2782,32 +2797,45 @@ CMakeFiles/GTools.dir/src/app/ToolPanel.cpp.obj: E:/GTools/src/app/ToolPanel.cpp
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qxptype_traits.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qyieldcpu.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/QIcon \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/QKeyEvent \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/QPixmap \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/QTransform \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qaction.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qbitmap.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qbrush.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qcolor.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qcursor.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/qevent.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/qeventpoint.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qfont.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qfontinfo.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qfontmetrics.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/qguiapplication.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/qguiapplication_platform.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qicon.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qimage.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/qinputdevice.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/qinputmethod.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qkeysequence.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qpaintdevice.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qpalette.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qpicture.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qpixelformat.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qpixmap.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/qpointingdevice.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qpolygon.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qregion.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qrgb.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qrgba64.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/qscreen.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/qscreen_platform.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qtextdocument.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qtgui-config.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qtguiexports.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qtguiglobal.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qtransform.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/qvector2d.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/qvectornd.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
   E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QGridLayout \
@@ -4318,7 +4346,10 @@ CMakeFiles/GTools.dir/src/main.cpp.obj: E:/GTools/src/main.cpp \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/QJsonObject \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/QList \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/QObject \
+  E:/Qt6/6.7.2/mingw_64/include/QtCore/QRect \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/QSharedMemory \
+  E:/Qt6/6.7.2/mingw_64/include/QtCore/QSize \
+  E:/Qt6/6.7.2/mingw_64/include/QtCore/QSizeF \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/QString \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/QTimer \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/q20functional.h \
@@ -4464,11 +4495,15 @@ CMakeFiles/GTools.dir/src/main.cpp.obj: E:/GTools/src/main.cpp \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qxptype_traits.h \
   E:/Qt6/6.7.2/mingw_64/include/QtCore/qyieldcpu.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/QIcon \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/QKeyEvent \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/QTransform \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qaction.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qbitmap.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qbrush.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qcolor.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qcursor.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/qevent.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/qeventpoint.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qfont.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qfontinfo.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qfontmetrics.h \
@@ -4476,6 +4511,7 @@ CMakeFiles/GTools.dir/src/main.cpp.obj: E:/GTools/src/main.cpp \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qguiapplication_platform.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qicon.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qimage.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/qinputdevice.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qinputmethod.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qkeysequence.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qpaintdevice.h \
@@ -4484,10 +4520,13 @@ CMakeFiles/GTools.dir/src/main.cpp.obj: E:/GTools/src/main.cpp \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qpicture.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qpixelformat.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qpixmap.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/qpointingdevice.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qpolygon.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qregion.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qrgb.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qrgba64.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/qscreen.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/qscreen_platform.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qtextcursor.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qtextdocument.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qtextformat.h \
@@ -4497,6 +4536,8 @@ CMakeFiles/GTools.dir/src/main.cpp.obj: E:/GTools/src/main.cpp \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qtguiglobal.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qtransform.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qvalidator.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/qvector2d.h \
+  E:/Qt6/6.7.2/mingw_64/include/QtGui/qvectornd.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
   E:/Qt6/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
   E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QApplication \
@@ -13248,6 +13289,10 @@ E:/Qt6/6.7.2/mingw_64/include/QtGui/QIcon:
 
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h:
 
+E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/bcrypt.h:
+
+E:/Qt6/6.7.2/mingw_64/include/QtGui/QKeyEvent:
+
 E:/Qt6/6.7.2/mingw_64/include/QtGui/QTextCharFormat:
 
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h:
@@ -13844,6 +13889,8 @@ E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl
 
 E:/Qt6/6.7.2/mingw_64/include/QtGui/QAction:
 
+E:/Qt6/6.7.2/mingw_64/include/QtCore/QEvent:
+
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_types.h:
 
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_map.h:
@@ -13944,9 +13991,9 @@ E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glu
 
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_numeric_defs.h:
 
-E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept:
-
 E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdlib.h:
+
+E:/Qt6/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept:
 
 E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/sec_api/stralign_s.h:
 
@@ -14121,10 +14168,6 @@ E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/errno.h:
 E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/assert.h:
 
 E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/basetsd.h:
-
-E:/Qt6/6.7.2/mingw_64/include/QtGui/QKeyEvent:
-
-E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/bcrypt.h:
 
 E:/Qt6/Tools/mingw1310_64/x86_64-w64-mingw32/include/dlgs.h:
 

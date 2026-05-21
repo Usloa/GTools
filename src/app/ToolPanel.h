@@ -3,6 +3,23 @@
 #include <QGridLayout>
 #include <QPushButton>
 #include <QLabel>
+#include <QKeyEvent>
+
+class ToolButton : public QPushButton {
+    Q_OBJECT
+public:
+    explicit ToolButton(QWidget *parent = nullptr) : QPushButton(parent) {}
+
+protected:
+    void keyPressEvent(QKeyEvent *e) override {
+        // 忽略空格键，防止自动触发
+        if (e->key() == Qt::Key_Space) {
+            e->ignore();
+            return;
+        }
+        QPushButton::keyPressEvent(e);
+    }
+};
 
 class ToolPanel : public QWidget {
     Q_OBJECT
@@ -11,6 +28,7 @@ public:
 
 signals:
     void toolActivated(const QString &toolId);
+    void settingsRequested();
 
 protected:
     bool event(QEvent *e) override;

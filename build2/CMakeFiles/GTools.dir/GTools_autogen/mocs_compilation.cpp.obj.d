@@ -472,10 +472,39 @@ CMakeFiles/GTools.dir/GTools_autogen/mocs_compilation.cpp.obj: \
  E:/GTools/src/app/ToolPanel.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QGridLayout \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qgridlayout.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/QKeyEvent \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/qevent.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qcoreevent.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/qeventpoint.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/qvector2d.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/qvectornd.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/qpointingdevice.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/qinputdevice.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/qscreen.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/QList \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qlist.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/QObject \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qobject.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/QRect \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qrect.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/QSize \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qsize.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/QSizeF \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/QTransform \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/qtransform.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qnativeinterface.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/qscreen_platform.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/qguiapplication.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qcoreapplication.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qdeadlinetimer.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qelapsedtimer.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qeventloop.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qcoreapplication_platform.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/qinputmethod.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtGui/qguiapplication_platform.h \
  E:\GTools\build2\GTools_autogen\PRMOGMWJPH/moc_NetworkClient.cpp \
  E:/GTools/src/core/NetworkClient.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/QObject \
- E:/Qt6/6.7.2/mingw_64/include/QtCore/qobject.h \
  E:/Qt6/6.7.2/mingw_64/include/QtNetwork/QNetworkAccessManager \
  E:/Qt6/6.7.2/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
  E:/Qt6/6.7.2/mingw_64/include/QtNetwork/qtnetworkglobal.h \
@@ -490,9 +519,6 @@ CMakeFiles/GTools.dir/GTools_autogen/mocs_compilation.cpp.obj: \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qurl.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/QVariant \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qvariant.h \
- E:/Qt6/6.7.2/mingw_64/include/QtCore/QList \
- E:/Qt6/6.7.2/mingw_64/include/QtCore/qlist.h \
- E:/Qt6/6.7.2/mingw_64/include/QtCore/QObject \
  E:/Qt6/6.7.2/mingw_64/include/QtNetwork/QSslConfiguration \
  E:/Qt6/6.7.2/mingw_64/include/QtNetwork/qsslconfiguration.h \
  E:/Qt6/6.7.2/mingw_64/include/QtNetwork/qsslsocket.h \
@@ -542,30 +568,6 @@ CMakeFiles/GTools.dir/GTools_autogen/mocs_compilation.cpp.obj: \
  E:/Qt6/6.7.2/mingw_64/include/QtGui/qabstracttextdocumentlayout.h \
  E:/Qt6/6.7.2/mingw_64/include/QtGui/qtextlayout.h \
  E:/Qt6/6.7.2/mingw_64/include/QtGui/qevent.h \
- E:/Qt6/6.7.2/mingw_64/include/QtCore/qcoreevent.h \
- E:/Qt6/6.7.2/mingw_64/include/QtGui/qeventpoint.h \
- E:/Qt6/6.7.2/mingw_64/include/QtGui/qvector2d.h \
- E:/Qt6/6.7.2/mingw_64/include/QtGui/qvectornd.h \
- E:/Qt6/6.7.2/mingw_64/include/QtGui/qpointingdevice.h \
- E:/Qt6/6.7.2/mingw_64/include/QtGui/qinputdevice.h \
- E:/Qt6/6.7.2/mingw_64/include/QtGui/qscreen.h \
- E:/Qt6/6.7.2/mingw_64/include/QtCore/QRect \
- E:/Qt6/6.7.2/mingw_64/include/QtCore/qrect.h \
- E:/Qt6/6.7.2/mingw_64/include/QtCore/QSize \
- E:/Qt6/6.7.2/mingw_64/include/QtCore/qsize.h \
- E:/Qt6/6.7.2/mingw_64/include/QtCore/QSizeF \
- E:/Qt6/6.7.2/mingw_64/include/QtGui/QTransform \
- E:/Qt6/6.7.2/mingw_64/include/QtGui/qtransform.h \
- E:/Qt6/6.7.2/mingw_64/include/QtCore/qnativeinterface.h \
- E:/Qt6/6.7.2/mingw_64/include/QtGui/qscreen_platform.h \
- E:/Qt6/6.7.2/mingw_64/include/QtGui/qguiapplication.h \
- E:/Qt6/6.7.2/mingw_64/include/QtCore/qcoreapplication.h \
- E:/Qt6/6.7.2/mingw_64/include/QtCore/qdeadlinetimer.h \
- E:/Qt6/6.7.2/mingw_64/include/QtCore/qelapsedtimer.h \
- E:/Qt6/6.7.2/mingw_64/include/QtCore/qeventloop.h \
- E:/Qt6/6.7.2/mingw_64/include/QtCore/qcoreapplication_platform.h \
- E:/Qt6/6.7.2/mingw_64/include/QtGui/qinputmethod.h \
- E:/Qt6/6.7.2/mingw_64/include/QtGui/qguiapplication_platform.h \
  E:/Qt6/6.7.2/mingw_64/include/QtGui/qglyphrun.h \
  E:/Qt6/6.7.2/mingw_64/include/QtGui/qrawfont.h \
  E:/Qt6/6.7.2/mingw_64/include/QtGui/qfontdatabase.h \
