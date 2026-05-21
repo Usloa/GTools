@@ -480,6 +480,9 @@ CMakeFiles/GTools.dir/src/main.cpp.obj: E:\GTools\src\main.cpp \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QCheckBox \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qcheckbox.h \
+ E:\GTools\src\app/ToolPanel.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QGridLayout \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qgridlayout.h \
  E:\GTools\src\core/Config.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/QJsonObject \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qjsonobject.h \

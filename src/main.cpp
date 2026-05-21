@@ -6,6 +6,7 @@
 #include "app/LauncherWindow.h"
 #include "app/LogWindow.h"
 #include "app/SettingsWindow.h"
+#include "app/ToolPanel.h"
 #include "core/Config.h"
 #include "core/ToolRegistry.h"
 #include "utils/HotkeyManager.h"
@@ -43,6 +44,9 @@ int main(int argc, char *argv[]) {
     // Launcher window
     LauncherWindow launcher;
 
+    // Tool panel (竖版工具面板)
+    ToolPanel toolPanel;
+
     // Log window
     LogWindow logWindow;
 
@@ -57,23 +61,47 @@ int main(int argc, char *argv[]) {
         logWindow.show(); logWindow.raise(); logWindow.activateWindow();
     });
 
-    // Global hotkey: Alt+Space
+    // Connect tool panel signals
+    QObject::connect(&toolPanel, &ToolPanel::toolActivated, [&](const QString &toolId) {
+        Tool *tool = ToolRegistry::instance().findById(toolId);
+        if (tool) {
+            tool->activate(&toolPanel);
+        }
+    });
+
+    // Global hotkey: Alt+Space - 显示工具面板
     HotkeyManager hotkey;
     if (!hotkey.registerHotkey(1, MOD_ALT, VK_SPACE)) {
-        // Fallback: try Alt+Q if Alt+Space is taken
         hotkey.registerHotkey(1, MOD_ALT, 'Q');
     }
     QObject::connect(&hotkey, &HotkeyManager::hotkeyPressed, [&](int id) {
         if (id == 1) {
-            if (launcher.isVisible())
-                launcher.hideLauncher();
-            else
-                launcher.showLauncher();
+            if (toolPanel.isVisible()) {
+                toolPanel.hide();
+            } else {
+                toolPanel.show();
+                toolPanel.raise();
+                toolPanel.activateWindow();
+            }
         }
     });
 
-    // Show launcher on first start
-    launcher.showLauncher();
+    // Hotkey 2: Alt+D - 显示/隐藏启动器（分离窗口），同时关闭工具面板
+    hotkey.registerHotkey(2, MOD_ALT, 'D');
+    QObject::connect(&hotkey, &HotkeyManager::hotkeyPressed, [&](int id) {
+        if (id == 2) {
+            if (launcher.isVisible()) {
+                launcher.hideLauncher();
+            } else {
+                toolPanel.hide();  // 关闭竖版工具面板
+                launcher.setAutoHideOnDeactivate(false);  // 禁用失焦关闭
+                launcher.showLauncher();
+            }
+        }
+    });
+
+    // Show tool panel on first start
+    toolPanel.show();
 
     // System tray
     QSystemTrayIcon tray;

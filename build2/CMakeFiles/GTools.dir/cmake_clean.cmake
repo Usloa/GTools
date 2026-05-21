@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GTools.dir/src/app/LogWindow.cpp.obj.d"
   "CMakeFiles/GTools.dir/src/app/SettingsWindow.cpp.obj"
   "CMakeFiles/GTools.dir/src/app/SettingsWindow.cpp.obj.d"
+  "CMakeFiles/GTools.dir/src/app/ToolPanel.cpp.obj"
+  "CMakeFiles/GTools.dir/src/app/ToolPanel.cpp.obj.d"
   "CMakeFiles/GTools.dir/src/core/Config.cpp.obj"
   "CMakeFiles/GTools.dir/src/core/Config.cpp.obj.d"
   "CMakeFiles/GTools.dir/src/core/NetworkClient.cpp.obj"

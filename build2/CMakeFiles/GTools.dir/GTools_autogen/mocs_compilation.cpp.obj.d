@@ -468,6 +468,10 @@ CMakeFiles/GTools.dir/GTools_autogen/mocs_compilation.cpp.obj: \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QCheckBox \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qcheckbox.h \
+ E:\GTools\build2\GTools_autogen\ISMKEKEPX5/moc_ToolPanel.cpp \
+ E:/GTools/src/app/ToolPanel.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QGridLayout \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qgridlayout.h \
  E:\GTools\build2\GTools_autogen\PRMOGMWJPH/moc_NetworkClient.cpp \
  E:/GTools/src/core/NetworkClient.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/QObject \

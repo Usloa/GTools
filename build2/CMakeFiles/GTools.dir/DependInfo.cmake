@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/GTools/src/app/LauncherWindow.cpp" "CMakeFiles/GTools.dir/src/app/LauncherWindow.cpp.obj" "gcc" "CMakeFiles/GTools.dir/src/app/LauncherWindow.cpp.obj.d"
   "E:/GTools/src/app/LogWindow.cpp" "CMakeFiles/GTools.dir/src/app/LogWindow.cpp.obj" "gcc" "CMakeFiles/GTools.dir/src/app/LogWindow.cpp.obj.d"
   "E:/GTools/src/app/SettingsWindow.cpp" "CMakeFiles/GTools.dir/src/app/SettingsWindow.cpp.obj" "gcc" "CMakeFiles/GTools.dir/src/app/SettingsWindow.cpp.obj.d"
+  "E:/GTools/src/app/ToolPanel.cpp" "CMakeFiles/GTools.dir/src/app/ToolPanel.cpp.obj" "gcc" "CMakeFiles/GTools.dir/src/app/ToolPanel.cpp.obj.d"
   "E:/GTools/src/core/Config.cpp" "CMakeFiles/GTools.dir/src/core/Config.cpp.obj" "gcc" "CMakeFiles/GTools.dir/src/core/Config.cpp.obj.d"
   "E:/GTools/src/core/NetworkClient.cpp" "CMakeFiles/GTools.dir/src/core/NetworkClient.cpp.obj" "gcc" "CMakeFiles/GTools.dir/src/core/NetworkClient.cpp.obj.d"
   "E:/GTools/src/core/ToolRegistry.cpp" "CMakeFiles/GTools.dir/src/core/ToolRegistry.cpp.obj" "gcc" "CMakeFiles/GTools.dir/src/core/ToolRegistry.cpp.obj.d"

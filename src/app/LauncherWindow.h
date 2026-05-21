@@ -14,6 +14,7 @@ public:
 
     void showLauncher();
     void hideLauncher();
+    void setAutoHideOnDeactivate(bool enabled) { m_autoHide = enabled; }
 
 signals:
     void settingsRequested();
@@ -42,4 +43,5 @@ private:
     FloatingBall *m_floatingBall;
     QPoint m_dragStart;
     bool m_dragging = false;
+    bool m_autoHide = true;
 };

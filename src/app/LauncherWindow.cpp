@@ -137,7 +137,7 @@ void LauncherWindow::hideLauncher() {
 }
 
 bool LauncherWindow::event(QEvent *e) {
-    if (e->type() == QEvent::WindowDeactivate) {
+    if (m_autoHide && e->type() == QEvent::WindowDeactivate) {
         hideLauncher();
         return true;
     }

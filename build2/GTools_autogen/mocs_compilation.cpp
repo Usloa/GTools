@@ -3,6 +3,7 @@
 #include "ISMKEKEPX5/moc_LauncherWindow.cpp"
 #include "ISMKEKEPX5/moc_LogWindow.cpp"
 #include "ISMKEKEPX5/moc_SettingsWindow.cpp"
+#include "ISMKEKEPX5/moc_ToolPanel.cpp"
 #include "PRMOGMWJPH/moc_NetworkClient.cpp"
 #include "7HKGAATB2O/moc_ColorPickerTool.cpp"
 #include "7HKGAATB2O/moc_MagnifierWidget.cpp"

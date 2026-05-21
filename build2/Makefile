@@ -298,6 +298,30 @@ src/app/SettingsWindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/src/app/SettingsWindow.cpp.s
 .PHONY : src/app/SettingsWindow.cpp.s
 
+src/app/ToolPanel.obj: src/app/ToolPanel.cpp.obj
+.PHONY : src/app/ToolPanel.obj
+
+# target to build an object file
+src/app/ToolPanel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/src/app/ToolPanel.cpp.obj
+.PHONY : src/app/ToolPanel.cpp.obj
+
+src/app/ToolPanel.i: src/app/ToolPanel.cpp.i
+.PHONY : src/app/ToolPanel.i
+
+# target to preprocess a source file
+src/app/ToolPanel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/src/app/ToolPanel.cpp.i
+.PHONY : src/app/ToolPanel.cpp.i
+
+src/app/ToolPanel.s: src/app/ToolPanel.cpp.s
+.PHONY : src/app/ToolPanel.s
+
+# target to generate assembly for a file
+src/app/ToolPanel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GTools.dir\build.make CMakeFiles/GTools.dir/src/app/ToolPanel.cpp.s
+.PHONY : src/app/ToolPanel.cpp.s
+
 src/core/Config.obj: src/core/Config.cpp.obj
 .PHONY : src/core/Config.obj
 
@@ -807,6 +831,9 @@ help:
 	@echo ... src/app/SettingsWindow.obj
 	@echo ... src/app/SettingsWindow.i
 	@echo ... src/app/SettingsWindow.s
+	@echo ... src/app/ToolPanel.obj
+	@echo ... src/app/ToolPanel.i
+	@echo ... src/app/ToolPanel.s
 	@echo ... src/core/Config.obj
 	@echo ... src/core/Config.i
 	@echo ... src/core/Config.s
