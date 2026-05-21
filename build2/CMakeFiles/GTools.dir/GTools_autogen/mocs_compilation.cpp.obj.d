@@ -464,8 +464,10 @@ CMakeFiles/GTools.dir/GTools_autogen/mocs_compilation.cpp.obj: \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qlabel.h \
  E:/Qt6/6.7.2/mingw_64/include/QtGui/qpicture.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qiodevice.h \
- E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QGroupBox \
- E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qgroupbox.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QTabWidget \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QCheckBox \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qcheckbox.h \
  E:\GTools\build2\GTools_autogen\PRMOGMWJPH/moc_NetworkClient.cpp \
  E:/GTools/src/core/NetworkClient.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/QObject \

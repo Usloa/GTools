@@ -20,6 +20,12 @@ public:
     bool startOnBoot() const;
     void setStartOnBoot(bool enabled);
 
+    QString hotkeyShowLauncher() const;
+    void setHotkeyShowLauncher(const QString &hotkey);
+
+    QString hotkeyDetachWindow() const;
+    void setHotkeyDetachWindow(const QString &hotkey);
+
 private:
     Config() = default;
     QString configPath() const;

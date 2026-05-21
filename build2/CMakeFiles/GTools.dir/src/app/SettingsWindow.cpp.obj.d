@@ -428,8 +428,10 @@ CMakeFiles/GTools.dir/src/app/SettingsWindow.cpp.obj: \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qlayoutitem.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qboxlayout.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qgridlayout.h \
- E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QGroupBox \
- E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qgroupbox.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QTabWidget \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QCheckBox \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qcheckbox.h \
  E:/GTools/src/core/Config.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/QJsonObject \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qjsonobject.h \
@@ -447,10 +449,10 @@ CMakeFiles/GTools.dir/src/app/SettingsWindow.cpp.obj: \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qformlayout.h \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QLayout \
  E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qlayout.h \
- E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QMessageBox \
- E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qmessagebox.h \
- E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qdialog.h \
- E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QGroupBox \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qgroupbox.h \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/QTimer \
  E:/Qt6/6.7.2/mingw_64/include/QtCore/qtimer.h \
- E:/Qt6/6.7.2/mingw_64/include/QtCore/qbasictimer.h
+ E:/Qt6/6.7.2/mingw_64/include/QtCore/qbasictimer.h \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/QKeySequenceEdit \
+ E:/Qt6/6.7.2/mingw_64/include/QtWidgets/qkeysequenceedit.h

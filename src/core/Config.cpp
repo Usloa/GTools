@@ -52,3 +52,21 @@ void Config::setStartOnBoot(bool enabled) {
     m_data["start_on_boot"] = enabled;
     save();
 }
+
+QString Config::hotkeyShowLauncher() const {
+    return m_data["hotkey_show_launcher"].toString("Alt+Space");
+}
+
+void Config::setHotkeyShowLauncher(const QString &hotkey) {
+    m_data["hotkey_show_launcher"] = hotkey;
+    save();
+}
+
+QString Config::hotkeyDetachWindow() const {
+    return m_data["hotkey_detach_window"].toString("Alt+D");
+}
+
+void Config::setHotkeyDetachWindow(const QString &hotkey) {
+    m_data["hotkey_detach_window"] = hotkey;
+    save();
+}
