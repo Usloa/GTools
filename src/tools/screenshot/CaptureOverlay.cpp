@@ -18,9 +18,13 @@ CaptureOverlay::CaptureOverlay(QWidget *parent) : QWidget(parent) {
 
 void CaptureOverlay::start() {
     m_desktop = ScreenGrabber::grabAllScreens();
+    QScreen *screen = QGuiApplication::primaryScreen();
+    qreal dpr = screen ? screen->devicePixelRatio() : 1.0;
     QRect vr = ScreenGrabber::virtualDesktopRect();
-    setGeometry(vr);
-    m_cursorPos = QCursor::pos() - vr.topLeft();
+    QRect logicalRect(vr.x() / dpr, vr.y() / dpr,
+                      vr.width() / dpr, vr.height() / dpr);
+    setGeometry(logicalRect);
+    m_cursorPos = QCursor::pos() - logicalRect.topLeft();
     showFullScreen();
     activateWindow();
     setFocus();
@@ -38,8 +42,11 @@ void CaptureOverlay::paintEvent(QPaintEvent *) {
     if (m_selecting || m_selected) {
         QRect sel = QRect(m_startPos, m_endPos).normalized();
         // Clear the selected region to show original image
+        qreal dpr = m_desktop.devicePixelRatio();
+        QRect srcRect(sel.x() * dpr, sel.y() * dpr,
+                      sel.width() * dpr, sel.height() * dpr);
         p.setCompositionMode(QPainter::CompositionMode_Source);
-        p.drawPixmap(sel, m_desktop, sel);
+        p.drawPixmap(sel, m_desktop, srcRect);
         p.setCompositionMode(QPainter::CompositionMode_SourceOver);
 
         // Border
@@ -47,8 +54,10 @@ void CaptureOverlay::paintEvent(QPaintEvent *) {
         p.setBrush(Qt::NoBrush);
         p.drawRect(sel);
 
-        // Size label
-        QString sizeText = QString("%1 x %2").arg(sel.width()).arg(sel.height());
+        // Size label — show physical pixel dimensions
+        int physW = sel.width() * dpr;
+        int physH = sel.height() * dpr;
+        QString sizeText = QString("%1 x %2").arg(physW).arg(physH);
         QFont f = p.font();
         f.setPixelSize(12);
         p.setFont(f);
@@ -92,7 +101,11 @@ void CaptureOverlay::mouseReleaseEvent(QMouseEvent *e) {
         m_endPos = e->pos();
         QRect sel = QRect(m_startPos, m_endPos).normalized();
         if (sel.width() > 3 && sel.height() > 3) {
-            QPixmap captured = m_desktop.copy(sel);
+            qreal dpr = m_desktop.devicePixelRatio();
+            QRect physicalSel(sel.x() * dpr, sel.y() * dpr,
+                              sel.width() * dpr, sel.height() * dpr);
+            QPixmap captured = m_desktop.copy(physicalSel);
+            captured.setDevicePixelRatio(1.0);
             releaseMouse();
             releaseKeyboard();
             emit regionCaptured(captured);

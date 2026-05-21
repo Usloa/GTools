@@ -36,7 +36,10 @@ QPixmap ScreenGrabber::grabAllScreens() {
     DeleteDC(hMem);
     ReleaseDC(nullptr, hScreen);
 
-    return QPixmap::fromImage(img);
+    QPixmap pix = QPixmap::fromImage(img);
+    qreal dpr = QGuiApplication::primaryScreen()->devicePixelRatio();
+    pix.setDevicePixelRatio(dpr);
+    return pix;
 }
 
 QPixmap ScreenGrabber::grabRegion(const QRect &region) {

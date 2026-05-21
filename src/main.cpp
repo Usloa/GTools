@@ -19,6 +19,11 @@
 #include <windows.h>
 
 int main(int argc, char *argv[]) {
+    SetProcessDpiAwarenessContext(DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2);
+
+    QApplication::setHighDpiScaleFactorRoundingPolicy(
+        Qt::HighDpiScaleFactorRoundingPolicy::PassThrough);
+
     QSharedMemory guard("GTools_SingleInstance_Guard");
     if (!guard.create(1)) {
         return 0;
